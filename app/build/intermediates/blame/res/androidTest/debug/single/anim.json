@@ -1,0 +1,290 @@
+[
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.2.1.aar\\bf2b0f07745168cfb26f0bc83c237ba3\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\view_rotate.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\utils-0.9.0.aar\\1784587a4568073e0f78b92777135321\\res\\anim\\view_rotate.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\activity_open_exit.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\finestwebview-1.2.7.aar\\3c05de2b8fa2d63d9fa1bc0eb2246d0b\\res\\anim\\activity_open_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\view_zoom_out.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\utils-0.9.0.aar\\1784587a4568073e0f78b92777135321\\res\\anim\\view_zoom_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\modal_activity_open_exit.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\finestwebview-1.2.7.aar\\3c05de2b8fa2d63d9fa1bc0eb2246d0b\\res\\anim\\modal_activity_open_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\view_fade_out.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\utils-0.9.0.aar\\1784587a4568073e0f78b92777135321\\res\\anim\\view_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\rv_layout_animation.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\AndroidSweetSheet-1.1.0.aar\\9332b6fb09aa4e5a64e13360deee20fc\\res\\anim\\rv_layout_animation.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\fragment_open_exit.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\finestwebview-1.2.7.aar\\3c05de2b8fa2d63d9fa1bc0eb2246d0b\\res\\anim\\fragment_open_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\no_anim.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\utils-0.9.0.aar\\1784587a4568073e0f78b92777135321\\res\\anim\\no_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\hold.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\finestwebview-1.2.7.aar\\3c05de2b8fa2d63d9fa1bc0eb2246d0b\\res\\anim\\hold.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\activity_close_exit.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\finestwebview-1.2.7.aar\\3c05de2b8fa2d63d9fa1bc0eb2246d0b\\res\\anim\\activity_close_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.2.1.aar\\bf2b0f07745168cfb26f0bc83c237ba3\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\modal_activity_open_enter.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\finestwebview-1.2.7.aar\\3c05de2b8fa2d63d9fa1bc0eb2246d0b\\res\\anim\\modal_activity_open_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\view_fade_in.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\utils-0.9.0.aar\\1784587a4568073e0f78b92777135321\\res\\anim\\view_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\fragment_open_enter.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\finestwebview-1.2.7.aar\\3c05de2b8fa2d63d9fa1bc0eb2246d0b\\res\\anim\\fragment_open_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\popup_flyout_hide.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\finestwebview-1.2.7.aar\\3c05de2b8fa2d63d9fa1bc0eb2246d0b\\res\\anim\\popup_flyout_hide.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\modal_activity_close_exit.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\finestwebview-1.2.7.aar\\3c05de2b8fa2d63d9fa1bc0eb2246d0b\\res\\anim\\modal_activity_close_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\decelerate_quart.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\finestwebview-1.2.7.aar\\3c05de2b8fa2d63d9fa1bc0eb2246d0b\\res\\anim\\decelerate_quart.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\fade_in.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\utils-0.9.0.aar\\1784587a4568073e0f78b92777135321\\res\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\fade_in_medium.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\finestwebview-1.2.7.aar\\3c05de2b8fa2d63d9fa1bc0eb2246d0b\\res\\anim\\fade_in_medium.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\popup_flyout_show.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\finestwebview-1.2.7.aar\\3c05de2b8fa2d63d9fa1bc0eb2246d0b\\res\\anim\\popup_flyout_show.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\view_bounce.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\utils-0.9.0.aar\\1784587a4568073e0f78b92777135321\\res\\anim\\view_bounce.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\item_duang_show2.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\AndroidSweetSheet-1.1.0.aar\\9332b6fb09aa4e5a64e13360deee20fc\\res\\anim\\item_duang_show2.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\view_zoom_in.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\utils-0.9.0.aar\\1784587a4568073e0f78b92777135321\\res\\anim\\view_zoom_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_out_top.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\dialogplus-1.11.aar\\e31182d940d15c7c4cc5c5e73bf7e0fe\\res\\anim\\slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_right_out.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\finestwebview-1.2.7.aar\\3c05de2b8fa2d63d9fa1bc0eb2246d0b\\res\\anim\\slide_right_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\accelerate_quint.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\finestwebview-1.2.7.aar\\3c05de2b8fa2d63d9fa1bc0eb2246d0b\\res\\anim\\accelerate_quint.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\decelerate_cubic.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\finestwebview-1.2.7.aar\\3c05de2b8fa2d63d9fa1bc0eb2246d0b\\res\\anim\\decelerate_cubic.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\fade_out_medium.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\finestwebview-1.2.7.aar\\3c05de2b8fa2d63d9fa1bc0eb2246d0b\\res\\anim\\fade_out_medium.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_in_bottom.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\dialogplus-1.11.aar\\e31182d940d15c7c4cc5c5e73bf7e0fe\\res\\anim\\slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\fragment_open_enter_reverse.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\utils-0.9.0.aar\\1784587a4568073e0f78b92777135321\\res\\anim\\fragment_open_enter_reverse.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\splash_out.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\utils-0.9.0.aar\\1784587a4568073e0f78b92777135321\\res\\anim\\splash_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\view_slide_up.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\utils-0.9.0.aar\\1784587a4568073e0f78b92777135321\\res\\anim\\view_slide_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\view_slide_down.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\utils-0.9.0.aar\\1784587a4568073e0f78b92777135321\\res\\anim\\view_slide_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\accelerate_cubic.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\finestwebview-1.2.7.aar\\3c05de2b8fa2d63d9fa1bc0eb2246d0b\\res\\anim\\accelerate_cubic.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\view_blink.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\utils-0.9.0.aar\\1784587a4568073e0f78b92777135321\\res\\anim\\view_blink.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_out_bottom.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\dialogplus-1.11.aar\\e31182d940d15c7c4cc5c5e73bf7e0fe\\res\\anim\\slide_out_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_up.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\finestwebview-1.2.7.aar\\3c05de2b8fa2d63d9fa1bc0eb2246d0b\\res\\anim\\slide_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_left_in.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\finestwebview-1.2.7.aar\\3c05de2b8fa2d63d9fa1bc0eb2246d0b\\res\\anim\\slide_left_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\activity_close_enter.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\finestwebview-1.2.7.aar\\3c05de2b8fa2d63d9fa1bc0eb2246d0b\\res\\anim\\activity_close_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\activity_open_enter.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\finestwebview-1.2.7.aar\\3c05de2b8fa2d63d9fa1bc0eb2246d0b\\res\\anim\\activity_open_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\accelerate_quart.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\finestwebview-1.2.7.aar\\3c05de2b8fa2d63d9fa1bc0eb2246d0b\\res\\anim\\accelerate_quart.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.2.1.aar\\bf2b0f07745168cfb26f0bc83c237ba3\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_in_top.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\dialogplus-1.11.aar\\e31182d940d15c7c4cc5c5e73bf7e0fe\\res\\anim\\slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\fragment_close_exit_reverse.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\utils-0.9.0.aar\\1784587a4568073e0f78b92777135321\\res\\anim\\fragment_close_exit_reverse.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_down.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\finestwebview-1.2.7.aar\\3c05de2b8fa2d63d9fa1bc0eb2246d0b\\res\\anim\\slide_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\none.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\finestwebview-1.2.7.aar\\3c05de2b8fa2d63d9fa1bc0eb2246d0b\\res\\anim\\none.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\fragment_close_exit.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\finestwebview-1.2.7.aar\\3c05de2b8fa2d63d9fa1bc0eb2246d0b\\res\\anim\\fragment_close_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\fade_out_fast.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\finestwebview-1.2.7.aar\\3c05de2b8fa2d63d9fa1bc0eb2246d0b\\res\\anim\\fade_out_fast.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\modal_activity_close_enter.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\finestwebview-1.2.7.aar\\3c05de2b8fa2d63d9fa1bc0eb2246d0b\\res\\anim\\modal_activity_close_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\fade_out.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\utils-0.9.0.aar\\1784587a4568073e0f78b92777135321\\res\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\fragment_close_enter.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\finestwebview-1.2.7.aar\\3c05de2b8fa2d63d9fa1bc0eb2246d0b\\res\\anim\\fragment_close_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\item_duang_show.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\AndroidSweetSheet-1.1.0.aar\\9332b6fb09aa4e5a64e13360deee20fc\\res\\anim\\item_duang_show.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\fade_out_center.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\dialogplus-1.11.aar\\e31182d940d15c7c4cc5c5e73bf7e0fe\\res\\anim\\fade_out_center.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\fade_out_slow.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\utils-0.9.0.aar\\1784587a4568073e0f78b92777135321\\res\\anim\\fade_out_slow.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\decelerate_quint.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\finestwebview-1.2.7.aar\\3c05de2b8fa2d63d9fa1bc0eb2246d0b\\res\\anim\\decelerate_quint.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\fade_in_center.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\dialogplus-1.11.aar\\e31182d940d15c7c4cc5c5e73bf7e0fe\\res\\anim\\fade_in_center.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\view_move.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\utils-0.9.0.aar\\1784587a4568073e0f78b92777135321\\res\\anim\\view_move.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.2.1.aar\\bf2b0f07745168cfb26f0bc83c237ba3\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.2.1.aar\\bf2b0f07745168cfb26f0bc83c237ba3\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.2.1.aar\\bf2b0f07745168cfb26f0bc83c237ba3\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\fade_in_fast.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\finestwebview-1.2.7.aar\\3c05de2b8fa2d63d9fa1bc0eb2246d0b\\res\\anim\\fade_in_fast.xml"
+    }
+]

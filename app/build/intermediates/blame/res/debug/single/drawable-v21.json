@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\custom_bg.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-v21\\custom_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_star_yellow_600_24dp.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-v21\\ic_star_yellow_600_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_star_border_yellow_600_24dp.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-v21\\ic_star_border_yellow_600_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_star_half_yellow_600_24dp.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-v21\\ic_star_half_yellow_600_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\crop__selectable_background.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\android-crop-1.0.1.aar\\9b8330ba2284d0535534c15dc52b6570\\res\\drawable-v21\\crop__selectable_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\selector_dark_theme.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\finestwebview-1.2.7.aar\\3c05de2b8fa2d63d9fa1bc0eb2246d0b\\res\\drawable-v21\\selector_dark_theme.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\selector_light_theme.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\finestwebview-1.2.7.aar\\3c05de2b8fa2d63d9fa1bc0eb2246d0b\\res\\drawable-v21\\selector_light_theme.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\selector_dark_theme_holo.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\finestwebview-1.2.7.aar\\3c05de2b8fa2d63d9fa1bc0eb2246d0b\\res\\drawable-v21\\selector_dark_theme_holo.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_keyboard_arrow_right_black_24dp.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-v21\\ic_keyboard_arrow_right_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\selector_light_theme_holo.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\finestwebview-1.2.7.aar\\3c05de2b8fa2d63d9fa1bc0eb2246d0b\\res\\drawable-v21\\selector_light_theme_holo.xml"
+    }
+]

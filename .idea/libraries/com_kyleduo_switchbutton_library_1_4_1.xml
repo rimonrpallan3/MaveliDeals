@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.kyleduo.switchbutton:library-1.4.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.4.1.aar/22e7b6b7f42206a8223fb1a93318e50f/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.4.1.aar/22e7b6b7f42206a8223fb1a93318e50f/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kyleduo.switchbutton/library/1.4.1/d81aec6e2239e979b0babbd66a06f6b2212036/library-1.4.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

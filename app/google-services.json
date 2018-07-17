@@ -1,0 +1,130 @@
+{
+  "project_info": {
+    "project_number": "775915216653",
+    "firebase_url": "https://test-app-1521545922569.firebaseio.com",
+    "project_id": "test-app-1521545922569",
+    "storage_bucket": "test-app-1521545922569.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775915216653:android:c91e4519c5da251c",
+        "android_client_info": {
+          "package_name": "com.voyager.nearbystores"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "775915216653-tiutja3d5ggv29q4sitaj532n08qpqr7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2ZDo__IY2Zt_ymRq54nRGuWkWRo87spQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775915216653:android:406b692f0893b057",
+        "android_client_info": {
+          "package_name": "com.voyager.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "775915216653-j472spbcommbi9b6shkfb09bng6ehhh0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.voyager.test",
+            "certificate_hash": "f253c652613a4f90ab839af8c338182c32b11af8"
+          }
+        },
+        {
+          "client_id": "775915216653-tiutja3d5ggv29q4sitaj532n08qpqr7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2ZDo__IY2Zt_ymRq54nRGuWkWRo87spQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "775915216653-tiutja3d5ggv29q4sitaj532n08qpqr7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775915216653:android:3b53b88c0f3aeece",
+        "android_client_info": {
+          "package_name": "com.voyager.nearbystores_v2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "775915216653-qfmusuj6h4fr6pihe55ehi1qkn6d1aup.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.voyager.nearbystores_v2",
+            "certificate_hash": "f253c652613a4f90ab839af8c338182c32b11af8"
+          }
+        },
+        {
+          "client_id": "775915216653-tiutja3d5ggv29q4sitaj532n08qpqr7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2ZDo__IY2Zt_ymRq54nRGuWkWRo87spQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "775915216653-tiutja3d5ggv29q4sitaj532n08qpqr7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

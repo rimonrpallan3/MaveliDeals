@@ -1,0 +1,662 @@
+[
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_notification_view.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\fragment_notification_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\store_list_activity.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\store_list_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_map.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\activity_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_store_review.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\item_store_review.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\menu_action_item_badge.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\actionitembadge-3.2.6.aar\\c22b2cf73bec189034d719d352b8a5af\\res\\layout\\menu_action_item_badge.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_store_reviews.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\fragment_store_reviews.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_categories.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\activity_categories.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\menus.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\finestwebview-1.2.7.aar\\3c05de2b8fa2d63d9fa1bc0eb2246d0b\\res\\layout\\menus.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\include_layout_mange_empty_discussion.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\include_layout_mange_empty_discussion.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_inbox.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\fragment_inbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_messenger.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\activity_messenger.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\dialog_list.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\dialogplus-1.11.aar\\e31182d940d15c7c4cc5c5e73bf7e0fe\\res\\layout\\dialog_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_login.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\fragment_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_settings.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_store_offers.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\fragment_store_offers.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\row_first.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\row_first.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\row_third.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\row_third.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\layout_list_inbox.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\layout_list_inbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_vertical_rv.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\AndroidSweetSheet-1.1.0.aar\\9332b6fb09aa4e5a64e13360deee20fc\\res\\layout\\item_vertical_rv.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_my_stores.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\fragment_my_stores.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_offer_custom_item.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\fragment_offer_custom_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\filter_item_list_inner_content.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\filter_item_list_inner_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\custom_view_notification.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\custom_view_notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\loading_icon_manage.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\loading_icon_manage.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\layout_rv_sweet.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\AndroidSweetSheet-1.1.0.aar\\9332b6fb09aa4e5a64e13360deee20fc\\res\\layout\\layout_rv_sweet.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_offers_list.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\fragment_offers_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\header_layout.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\header_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\dialog_grid.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\dialogplus-1.11.aar\\e31182d940d15c7c4cc5c5e73bf7e0fe\\res\\layout\\dialog_grid.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_event_zoom_view.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\fragment_event_zoom_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_store_review_load_more.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\item_store_review_load_more.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_map.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\fragment_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_login.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_event_custom.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\item_event_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.2.1.aar\\bf2b0f07745168cfb26f0bc83c237ba3\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_big_media.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\include_layout_mange_loading.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\include_layout_mange_loading.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\menu_custom_row_drawer.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\menu_custom_row_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\amu_webview.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\android-maps-utils-0.4.5-SNAPSHOT.aar\\47ce4d45a75d3fe691b25d9f8b909fc6\\res\\layout\\amu_webview.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\filter_item_list_content.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\filter_item_list_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\finest_web_view.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\finestwebview-1.2.7.aar\\3c05de2b8fa2d63d9fa1bc0eb2246d0b\\res\\layout\\finest_web_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\custom_image_view.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\custom_image_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.2.1.aar\\bf2b0f07745168cfb26f0bc83c237ba3\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_about.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\activity_about.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\include_layout_mange_empty.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\include_layout_mange_empty.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_my_wishlist.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\fragment_my_wishlist.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\include_layout_mange_error.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\include_layout_mange_error.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\base_container.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\dialogplus-1.11.aar\\e31182d940d15c7c4cc5c5e73bf7e0fe\\res\\layout\\base_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_store_detail.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\activity_store_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_event_liked.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\activity_event_liked.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_offer_detail.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\activity_offer_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\view_image_marker_map.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\view_image_marker_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\row_second.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\row_second.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\dialog_search.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\dialog_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_store_create.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\activity_store_create.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_map_marker_position.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\activity_map_marker_position.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\layout_vp_sweet.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\AndroidSweetSheet-1.1.0.aar\\9332b6fb09aa4e5a64e13360deee20fc\\res\\layout\\layout_vp_sweet.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_list_users.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\activity_list_users.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\menu_action_item_badge_large.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\actionitembadge-3.2.6.aar\\c22b2cf73bec189034d719d352b8a5af\\res\\layout\\menu_action_item_badge_large.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.2.1.aar\\bf2b0f07745168cfb26f0bc83c237ba3\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_inbox.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\activity_inbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_empty_list_manage.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\fragment_empty_list_manage.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.2.1.aar\\bf2b0f07745168cfb26f0bc83c237ba3\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\dialog_rate.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\dialog_rate.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\popup_base.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\FlycoDialog_Lib-1.2.2.aar\\d701b6c8980ae06dfe87c878fef81f10\\res\\layout\\popup_base.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_comment_dialog.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\fragment_comment_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\webview_dialog.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\webview_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\navigation_drawer_content.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\navigation_drawer_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\tabrow.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\tabrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_store_list.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\fragment_store_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_edit_profile.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\activity_edit_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.2.1.aar\\bf2b0f07745168cfb26f0bc83c237ba3\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_lines.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_dialog_costum.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\fragment_dialog_costum.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\layout_grid_menu.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\AndroidSweetSheet-1.1.0.aar\\9332b6fb09aa4e5a64e13360deee20fc\\res\\layout\\layout_grid_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\main_activity.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\main_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\dialog_msg_layout.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\dialog_msg_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_main.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\fragment_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\navigation_drawer_header.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\navigation_drawer_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_location_by.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\fragment_location_by.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_map_main.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\activity_map_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_signup.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\activity_signup.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\custom_message_loading.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\custom_message_loading.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\app_bar.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\app_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_user_list.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\fragment_user_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\filter_list_content.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\filter_list_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\crop__layout_done_cancel.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\android-crop-1.0.1.aar\\9b8330ba2284d0535534c15dc52b6570\\res\\layout\\crop__layout_done_cancel.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\appbar_setting.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\appbar_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_event_content.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\fragment_event_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.2.1.aar\\bf2b0f07745168cfb26f0bc83c237ba3\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_dialog_comment.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\fragment_dialog_comment.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.2.1.aar\\bf2b0f07745168cfb26f0bc83c237ba3\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_store_custom_item.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\fragment_store_custom_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_error_manage.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\fragment_error_manage.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_category.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\item_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_maps.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\activity_maps.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\list_item.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\toolbar_content.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\finestwebview-1.2.7.aar\\3c05de2b8fa2d63d9fa1bc0eb2246d0b\\res\\layout\\toolbar_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_splash.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\custom_message_sender.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\custom_message_sender.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.2.1.aar\\bf2b0f07745168cfb26f0bc83c237ba3\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_store_offer.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\item_store_offer.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\popup_bubble.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\FlycoDialog_Lib-1.2.2.aar\\d701b6c8980ae06dfe87c878fef81f10\\res\\layout\\popup_bubble.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.2.1.aar\\bf2b0f07745168cfb26f0bc83c237ba3\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_store_dialog_review.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\fragment_store_dialog_review.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\custom_message_receiver.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\custom_message_receiver.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\dialog_view.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\dialogplus-1.11.aar\\e31182d940d15c7c4cc5c5e73bf7e0fe\\res\\layout\\dialog_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.2.1.aar\\bf2b0f07745168cfb26f0bc83c237ba3\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_text_input_password_icon.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.2.1.aar\\bf2b0f07745168cfb26f0bc83c237ba3\\res\\layout\\design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\crop__activity_crop.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\android-crop-1.0.1.aar\\9b8330ba2284d0535534c15dc52b6570\\res\\layout\\crop__activity_crop.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_event.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\activity_event.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_reviews.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\activity_reviews.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_camera_square.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\activity_camera_square.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_layout_tab_text.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.2.1.aar\\bf2b0f07745168cfb26f0bc83c237ba3\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_event_head_view.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\fragment_event_head_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\filter_item_list_inner_two_content.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\filter_item_list_inner_two_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_comment.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\item_comment.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\layout_user.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\layout_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_slider.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\activity_slider.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.2.1.aar\\bf2b0f07745168cfb26f0bc83c237ba3\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\activity_my_store.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\activity_my_store.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\amu_text_bubble.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\android-maps-utils-0.4.5-SNAPSHOT.aar\\47ce4d45a75d3fe691b25d9f8b909fc6\\res\\layout\\amu_text_bubble.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\app_bar_special.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\app_bar_special.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\item_horizon_rv.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\AndroidSweetSheet-1.1.0.aar\\9332b6fb09aa4e5a64e13360deee20fc\\res\\layout\\item_horizon_rv.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_store_favortie.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\fragment_store_favortie.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\layout_custom_sweet.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\AndroidSweetSheet-1.1.0.aar\\9332b6fb09aa4e5a64e13360deee20fc\\res\\layout\\layout_custom_sweet.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\notification_media_action.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\amu_info_window.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\android-maps-utils-0.4.5-SNAPSHOT.aar\\47ce4d45a75d3fe691b25d9f8b909fc6\\res\\layout\\amu_info_window.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\footer_layout.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\footer_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\fragment_event_calendar.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\fragment_event_calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\layout_list_discussion.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\layout\\layout_list_discussion.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\layout\\abc_action_mode_close_item_material.xml"
+    }
+]

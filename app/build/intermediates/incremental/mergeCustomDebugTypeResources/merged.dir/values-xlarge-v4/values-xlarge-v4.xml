@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="abc_dialog_fixed_height_major" type="dimen">60%</item>
+    <item name="abc_dialog_fixed_height_minor" type="dimen">90%</item>
+    <item name="abc_dialog_fixed_width_major" type="dimen">50%</item>
+    <item name="abc_dialog_fixed_width_minor" type="dimen">70%</item>
+    <item name="abc_dialog_min_width_major" type="dimen">45%</item>
+    <item name="abc_dialog_min_width_minor" type="dimen">72%</item>
+    <dimen name="comp_avatar">65dp</dimen>
+    <dimen name="comp_avatar_comment">55dp</dimen>
+    <dimen name="comp_box_user_action">48dp</dimen>
+    <dimen name="comp_box_user_action_icons">42dp</dimen>
+    <item name="match_parent" type="dimen">-1</item>
+    <item name="max_width_components" type="dimen">500dp</item>
+    <item name="min_width_components" type="dimen">300dp</item>
+    <item name="navdrawar_width" type="dimen">300dp</item>
+    <item name="size_msg_text" type="dimen">20sp</item>
+    <item name="size_msg_textbox" type="dimen">22sp</item>
+</resources>

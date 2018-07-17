@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_default_height_material">48dp</dimen>
+    <dimen name="abc_action_bar_progress_bar_size">32dp</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">12dp</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">14dp</dimen>
+    <dimen name="comp_avatar">65dp</dimen>
+    <dimen name="comp_avatar_comment">55dp</dimen>
+    <dimen name="comp_box_user_action">48dp</dimen>
+    <dimen name="comp_box_user_action_icons">42dp</dimen>
+    <dimen name="crop__bar_height">48dp</dimen>
+    <item name="match_parent" type="dimen">-1</item>
+    <item name="max_width_components" type="dimen">650dp</item>
+    <dimen name="menusWidth">224dp</dimen>
+    <item name="min_width_components" type="dimen">350dp</item>
+    <item name="navdrawar_width" type="dimen">300dp</item>
+    <item name="size_msg_text" type="dimen">20sp</item>
+    <item name="size_msg_textbox" type="dimen">22sp</item>
+    <dimen name="toolbarHeight">48dp</dimen>
+    <style name="Widget.Design.TabLayout" parent="Base.Widget.Design.TabLayout">
+        <item name="tabGravity">center</item>
+        <item name="tabMode">fixed</item>
+    </style>
+</resources>

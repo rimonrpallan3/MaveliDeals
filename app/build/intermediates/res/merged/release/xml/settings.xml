@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/settings_notifications"
+        android:key="pref_key_notification_settings">
+
+        <CheckBoxPreference
+            android:key="notif_offers"
+            android:summary="@string/settings_notification_offers"
+            android:title="@string/settings_notification_offers_title"
+            android:defaultValue="true" />
+
+        <CheckBoxPreference
+            android:key="notif_nearby_events"
+            android:summary="@string/settings_notification_events"
+            android:title="@string/settings_notification_events_title"
+            android:defaultValue="true" />
+
+        <CheckBoxPreference
+            android:key="notif_coming_event"
+            android:summary="@string/settings_notification_events_coming"
+            android:title="@string/settings_notification_events_coming_title"
+            android:defaultValue="true" />
+
+        <CheckBoxPreference
+            android:key="notif_nearby_stores"
+            android:summary="@string/settings_notification_stores"
+            android:title="@string/settings_notification_stores_title"
+            android:defaultValue="true" />
+
+        <CheckBoxPreference
+            android:key="notif_messenger"
+            android:summary="@string/settings_notification_messenger"
+            android:title="@string/settings_notification_messenger_title"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+    <!--<PreferenceCategory-->
+        <!--android:title="@string/settings_distance"-->
+        <!--android:key="pref_key_notification_settings">-->
+
+        <!--<com.droideve.apps.nearbystoresdebug.views.SeekBarPreference-->
+            <!--android:defaultValue="100"-->
+            <!--android:key="distance_value"-->
+            <!--android:max="100"-->
+            <!--android:text="KM"-->
+            <!--android:summary="@string/settings_notification_distance"-->
+            <!--android:title="@string/settings_notification_distance_title" />-->
+
+    <!--</PreferenceCategory>-->
+    
+    <PreferenceCategory
+        android:title="@string/settings_app_infos"
+        android:key="pref_app_infos">
+
+        <Preference
+            android:key="app_version"
+            android:summary="@string/settings_app_infos_title"
+            android:title="@string/settings_app_infos_title" />
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

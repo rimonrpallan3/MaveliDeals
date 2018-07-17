@@ -1,0 +1,550 @@
+[
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_more_horiz_black_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_more_horiz_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_arrow_back_white_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_arrow_back_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_star_border_yellow_600_36dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_star_border_yellow_600_36dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\location_pointer_icons_orange_square.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\location_pointer_icons_orange_square.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_share_white_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_share_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.8.0.aar\\81578892b25f7abb150b29a48e2e8fc5\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_card_travel_black_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_card_travel_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_light.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_ic_star_black_48dp.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\amu_bubble_mask.9.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\android-maps-utils-0.4.5-SNAPSHOT.aar\\47ce4d45a75d3fe691b25d9f8b909fc6\\res\\drawable-xxhdpi-v4\\amu_bubble_mask.9.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\back.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\finestwebview-1.2.7.aar\\3c05de2b8fa2d63d9fa1bc0eb2246d0b\\res\\drawable-xxhdpi-v4\\back.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_event_white_18dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_event_white_18dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_event_white_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_event_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_photo_camera_grey600_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_photo_camera_grey600_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_shop_mall_directory_orange_18dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_shop_mall_directory_orange_18dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_add_alert_black_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_add_alert_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.8.0.aar\\81578892b25f7abb150b29a48e2e8fc5\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_favorite_white_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_favorite_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_star_yellow_600_36dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_star_yellow_600_36dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ad_banner_outline.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ad_banner_outline.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_web_grey600_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_web_grey600_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_add_circle_outline_white_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_add_circle_outline_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_flag_black_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_flag_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_chat_orange_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_chat_orange_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_keyboard_arrow_down.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_keyboard_arrow_down.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_marker.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_marker.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_keyboard_arrow_up.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_keyboard_arrow_up.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_priority_high_white_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_priority_high_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_add_grey600_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_add_grey600_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_store_mall_directory_orange_18dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_store_mall_directory_orange_18dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_store_mall_directory_white_18dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_store_mall_directory_white_18dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\met_ic_clear.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\library-2.1.4.aar\\dfa45d505bdf0934cc1c48bc29b6d520\\res\\drawable-xxhdpi\\met_ic_clear.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\googleg_disabled_color_18.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.8.0.aar\\81578892b25f7abb150b29a48e2e8fc5\\res\\drawable-xxhdpi-v4\\googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_arrow_white.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_arrow_white.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_close_red_900_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_close_red_900_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\red_star_half.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\red_star_half.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_search_white_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_search_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_action_logo_nearbystores.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_logo_nearbystores.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_store_black_18dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_store_black_18dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_sale_white_18dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_sale_white_18dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_ic_star_half_black_36dp.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_text_select_handle_right_mtrl_light.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\location_pointer_icons_black.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\location_pointer_icons_black.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_store_white_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_store_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\close_filter.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\close_filter.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_search_orange_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_search_orange_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_playlist_add_white_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_playlist_add_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\close.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\finestwebview-1.2.7.aar\\3c05de2b8fa2d63d9fa1bc0eb2246d0b\\res\\drawable-xxhdpi-v4\\close.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\location_pointer_icons_orange.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\location_pointer_icons_orange.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_google_maps_orange_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_google_maps_orange_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_event_note_white_18dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_event_note_white_18dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_folder_black_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_folder_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_access_alarms_grey600_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_access_alarms_grey600_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\pullzoomview-1.0.0.aar\\4e171dd298e83ee1cf3fb5bcffe6b8d6\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_event_note_orange_18dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_event_note_orange_18dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_text_select_handle_middle_mtrl_light.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_flag_grey_600_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_flag_grey_600_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\filter_offer.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\filter_offer.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\forward.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\finestwebview-1.2.7.aar\\3c05de2b8fa2d63d9fa1bc0eb2246d0b\\res\\drawable-xxhdpi-v4\\forward.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_priority_high_black_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_priority_high_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_warning_red_500_18dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_warning_red_500_18dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_keyboard_backspace.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_keyboard_backspace.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_star_white_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_star_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_mail_white_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_mail_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_create_grey600_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_create_grey600_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_insert_chart_white_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_insert_chart_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_comment_white_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_comment_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_ic_star_half_black_48dp.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_assistant_photo_white_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_assistant_photo_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_phone_black_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_phone_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_refresh_white_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_refresh_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.8.0.aar\\81578892b25f7abb150b29a48e2e8fc5\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_chat_black_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_chat_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\amu_bubble_shadow.9.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\android-maps-utils-0.4.5-SNAPSHOT.aar\\47ce4d45a75d3fe691b25d9f8b909fc6\\res\\drawable-xxhdpi-v4\\amu_bubble_shadow.9.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_directions_black_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_directions_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_rate_review_white_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_rate_review_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_star_border_white_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_star_border_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_sale_orange_18dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_sale_orange_18dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_navigate_next.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_navigate_next.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_chat_white_18dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_chat_white_18dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_favorite_border_white_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_favorite_border_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_close_grey_600_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_close_grey_600_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_ic_star_black_16dp.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_star_half_white_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_star_half_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_location_on_white_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_location_on_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_mic_grey600_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_mic_grey600_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_chat_bubble_white_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_chat_bubble_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_add_to_photos_white_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_add_to_photos_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_thumbs_up_down_white_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_thumbs_up_down_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\corner_common_border_gray.xml",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\corner_common_border_gray.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\more.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\finestwebview-1.2.7.aar\\3c05de2b8fa2d63d9fa1bc0eb2246d0b\\res\\drawable-xxhdpi-v4\\more.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_gps_fixed_black_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_gps_fixed_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_place_white_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_place_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_ic_star_half_black_16dp.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_stars_white_24dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_stars_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\drawable-xxhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\googleg_standard_color_18.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.8.0.aar\\81578892b25f7abb150b29a48e2e8fc5\\res\\drawable-xxhdpi-v4\\googleg_standard_color_18.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png",
+        "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.8.0.aar\\81578892b25f7abb150b29a48e2e8fc5\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\customDebugType\\drawable-xxhdpi-v4\\ic_home_white_18dp.png",
+        "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\drawable-xxhdpi\\ic_home_white_18dp.png"
+    }
+]

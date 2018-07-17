@@ -1,0 +1,3 @@
+# view AndroidManifest.xml #generated:50
+-keep class com.voyager.nearbystores_v2.AppController { <init>(...); }
+

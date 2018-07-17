@@ -1,0 +1,174 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\res\\merged\\release\\values-land\\values-land.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\values-land\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4,7,8,12,13,14,15,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "59,103,159,212,390,444,509,574,273,330",
+                        "endColumns": "42,50,51,57,52,63,63,58,55,58",
+                        "endOffsets": "97,149,206,265,438,503,568,628,324,384"
+                    },
+                    "to": {
+                        "startLines": "6,7,8,9,11,12,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "328,371,422,474,580,633,740,804,863,919",
+                        "endColumns": "42,50,51,57,52,63,63,58,55,58",
+                        "endOffsets": "366,417,469,527,628,692,799,858,914,973"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.2.1.aar\\bf2b0f07745168cfb26f0bc83c237ba3\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "232"
+                    },
+                    "to": {
+                        "startLines": "19",
+                        "startColumns": "4",
+                        "startOffsets": "1023",
+                        "endLines": "22",
+                        "endColumns": "12",
+                        "endOffsets": "1200"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\android-crop-1.0.1.aar\\9b8330ba2284d0535534c15dc52b6570\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "171",
+                        "endColumns": "47",
+                        "endOffsets": "214"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "532",
+                        "endColumns": "47",
+                        "endOffsets": "575"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\finestwebview-1.2.7.aar\\3c05de2b8fa2d63d9fa1bc0eb2246d0b\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,98",
+                        "endColumns": "42,44",
+                        "endOffsets": "93,138"
+                    },
+                    "to": {
+                        "startLines": "13,18",
+                        "startColumns": "4,4",
+                        "startOffsets": "697,978",
+                        "endColumns": "42,44",
+                        "endOffsets": "735,1018"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-land\\values-land.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\User\\AndroidStudioProjects\\NearByStroes\\app\\src\\main\\res\\values-land\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4,7,8,12,13,14,15,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "59,103,159,212,390,444,509,574,273,330",
+                        "endColumns": "42,50,51,57,52,63,63,58,55,58",
+                        "endOffsets": "97,149,206,265,438,503,568,628,324,384"
+                    },
+                    "to": {
+                        "startLines": "6,7,8,9,11,12,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "328,371,422,474,580,633,740,804,863,919",
+                        "endColumns": "42,50,51,57,52,63,63,58,55,58",
+                        "endOffsets": "366,417,469,527,628,692,799,858,914,973"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.2.1.aar\\bf2b0f07745168cfb26f0bc83c237ba3\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "232"
+                    },
+                    "to": {
+                        "startLines": "19",
+                        "startColumns": "4",
+                        "startOffsets": "1023",
+                        "endLines": "22",
+                        "endColumns": "12",
+                        "endOffsets": "1200"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\android-crop-1.0.1.aar\\9b8330ba2284d0535534c15dc52b6570\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "171",
+                        "endColumns": "47",
+                        "endOffsets": "214"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "532",
+                        "endColumns": "47",
+                        "endOffsets": "575"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\5616fcd00f4c98718f36c29b0c3884cf\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\finestwebview-1.2.7.aar\\3c05de2b8fa2d63d9fa1bc0eb2246d0b\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,98",
+                        "endColumns": "42,44",
+                        "endOffsets": "93,138"
+                    },
+                    "to": {
+                        "startLines": "13,18",
+                        "startColumns": "4,4",
+                        "startOffsets": "697,978",
+                        "endColumns": "42,44",
+                        "endOffsets": "735,1018"
+                    }
+                }
+            ]
+        }
+    ]
+}
