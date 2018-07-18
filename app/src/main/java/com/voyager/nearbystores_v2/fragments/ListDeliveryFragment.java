@@ -33,15 +33,18 @@ import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.google.gson.Gson;
+import com.mikepenz.actionitembadge.library.ActionItemBadge;
+import com.mikepenz.community_material_typeface_library.CommunityMaterial;
 import com.mikepenz.iconics.IconicsDrawable;
+import com.norbsoft.typefacehelper.TypefaceHelper;
 import com.voyager.nearbystores_v2.GPS.GPStracker;
-import com.voyager.nearbystores_v2.adapter.OfferChildListAdapter;
 import com.voyager.nearbystores_v2.R;
 import com.voyager.nearbystores_v2.RetorHelper.MainOffers;
 import com.voyager.nearbystores_v2.RetorHelper.OfferList;
 import com.voyager.nearbystores_v2.RetorHelper.Result;
 import com.voyager.nearbystores_v2.activities.MainActivity;
 import com.voyager.nearbystores_v2.activities.OfferDetailActivity;
+import com.voyager.nearbystores_v2.adapter.OfferChildListAdapter;
 import com.voyager.nearbystores_v2.adapter.OfferFilterListAdapter;
 import com.voyager.nearbystores_v2.adapter.lists.OfferListAdapter;
 import com.voyager.nearbystores_v2.appconfig.AppConfig;
@@ -63,9 +66,6 @@ import com.voyager.nearbystores_v2.presenter.IOfferFilterPresenter;
 import com.voyager.nearbystores_v2.presenter.OfferFilterPresenter;
 import com.voyager.nearbystores_v2.utils.DateUtils;
 import com.voyager.nearbystores_v2.utils.Utils;
-import com.mikepenz.actionitembadge.library.ActionItemBadge;
-import com.mikepenz.community_material_typeface_library.CommunityMaterial;
-import com.norbsoft.typefacehelper.TypefaceHelper;
 import com.voyager.nearbystores_v2.views.IOfferFilterView;
 import com.voyager.nearbystores_v2.webservices.ApiClient;
 import com.voyager.nearbystores_v2.webservices.WebServices;
@@ -92,7 +92,7 @@ import retrofit2.Retrofit;
 
 import static com.voyager.nearbystores_v2.appconfig.AppConfig.APP_DEBUG;
 
-public class ListOffersFragment extends android.support.v4.app.Fragment
+public class ListDeliveryFragment extends android.support.v4.app.Fragment
         implements OfferListAdapter.ClickListener,
         IOfferFilterView,
         SwipeRefreshLayout.OnRefreshListener,

@@ -91,7 +91,7 @@ public class Constances {
             public static final int BOOKMAKRS = -1;
             public static final int MOST_RATED = -2;
             public static final int MOST_RECENT = -3;
-            public static final int EVENTS = -4;
+            public static final int HOME_DELIVERY= -4;
             public static final int CHAT = -5;
             public static final int NEARBY_OFFERS = -6;
             public static final int NEARBY_SHOPS = -7;

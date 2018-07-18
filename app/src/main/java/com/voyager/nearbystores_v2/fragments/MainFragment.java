@@ -194,9 +194,9 @@ public class MainFragment extends Fragment {
             if(AppConfig.APP_DEBUG)
              Log.e("tab", String.valueOf(AppConfig.TabsConfig.get(position).getType()));
 
-            if(AppConfig.TabsConfig.get(position).getType() == Constances.initConfig.Tabs.EVENTS) {
-                fragment = new ListEventFragment();
-                System.out.println(TAG+" :EVENTS ViewPagerAdapter getItem :"+AppConfig.TabsConfig.get(position).getType());
+            if(AppConfig.TabsConfig.get(position).getType() == Constances.initConfig.Tabs.HOME_DELIVERY) {
+                fragment = new ListDeliveryFragment();
+                System.out.println(TAG+" :HOME_DELIVERY ViewPagerAdapter getItem :"+AppConfig.TabsConfig.get(position).getType());
 
             }else if(AppConfig.TabsConfig.get(position).getType() == Constances.initConfig.Tabs.CHAT) {
                 if(SessionsController.isLogged()){
