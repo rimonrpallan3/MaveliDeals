@@ -37,8 +37,7 @@ public class LoginPage extends AppCompatActivity implements ILoginView ,View.OnC
 
     @BindView(R.id.tvSkip)
     TextView tvSkip;
-    @BindView(R.id.tvSignUp)
-    TextView tvSignUp;
+    TextView tvSignup;
 
 
     @Override
@@ -49,9 +48,9 @@ public class LoginPage extends AppCompatActivity implements ILoginView ,View.OnC
         sharedPrefs = getSharedPreferences(Helper.UserDetails,
                 Context.MODE_PRIVATE);
         editor = sharedPrefs.edit();
-
+        tvSignup = (TextView) findViewById(R.id.tvSignup);
         tvSkip.setOnClickListener(this);
-        tvSignUp.setOnClickListener(this);
+        tvSignup.setOnClickListener(this);
         //find view
 
 
@@ -67,11 +66,10 @@ public class LoginPage extends AppCompatActivity implements ILoginView ,View.OnC
                 startActivity(intent);
                 finish();
                 break;
-            case R.id.tvSignUp:
+            case R.id.tvSignup:
                 intent = new Intent(LoginPage.this, SignupPage.class);
                 startActivity(intent);
-                finish();
-                Toast.makeText(this,"Plase wait for this feather Sign up",Toast.LENGTH_LONG).show();
+
                 break;
 
         }

@@ -2,10 +2,12 @@ package com.voyager.nearbystores_v2.adapter.navigation;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
+import android.graphics.drawable.GradientDrawable;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -99,6 +101,17 @@ public class SimpleListAdapterNavDrawer extends RecyclerView.Adapter<RecyclerVie
                 }
             }
 
+            /*ViewGroup.MarginLayoutParams mlp = (ViewGroup.MarginLayoutParams) holder.flDrawerList.getLayoutParams();
+            GradientDrawable border = new GradientDrawable();
+            border.setColor(0xFFFFFFFF); //white bac                                      kground
+            border.setStroke(1, 0xFF000000); //black border with full opacity
+            if (data.size() == (position + 1)) {
+                mlp.setMargins(0, 0, 0, (int) context.getResources().getDimension(R.dimen._80));
+                holder.flDrawerList.setBackground(border);
+            } else {
+                mlp.setMargins(0, 0, 0, 0);
+            }*/
+
         }else if(holderViews instanceof mHeaderViewHolder){
 
             mHeaderViewHolder holder = (mHeaderViewHolder) holderViews;
@@ -165,6 +178,7 @@ public class SimpleListAdapterNavDrawer extends RecyclerView.Adapter<RecyclerVie
         public ImageView imageItem;
         public TextView notify;
         public View root;
+        public FrameLayout flDrawerList;
 
 
 
@@ -178,6 +192,7 @@ public class SimpleListAdapterNavDrawer extends RecyclerView.Adapter<RecyclerVie
             nameItem = (TextView) itemView.findViewById(R.id.itemtext);
             imageItem = (ImageView) itemView.findViewById(R.id.itemimage);
             notify = (TextView) itemView.findViewById(R.id.notify);
+            flDrawerList = (FrameLayout) itemView.findViewById(R.id.flDrawerList);
 
         }
 

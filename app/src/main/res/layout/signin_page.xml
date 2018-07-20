@@ -121,8 +121,8 @@
                     android:layout_marginTop="@dimen/_10">
 
                     <TextView
-                        android:id="@+id/tvSignUp"
-                        android:layout_width="match_parent"
+                        android:id="@+id/tvSignup"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:textStyle="bold"
                         android:textColor="@color/red"
@@ -130,7 +130,7 @@
 
                     <TextView
                         android:id="@+id/tvSkip"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:textStyle="bold"
                         android:layout_gravity="right"

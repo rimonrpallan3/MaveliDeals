@@ -383,7 +383,7 @@ public class ListOffersFragment extends android.support.v4.app.Fragment
                     if (APP_DEBUG) {
                         Log.e("responseOffersString", response);
                     }
-
+                    System.out.println(" ----------- List responseOffersString : "+response);
                     JSONObject jsonObject = new JSONObject(response);
 
 

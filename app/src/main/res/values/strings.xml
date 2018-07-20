@@ -218,5 +218,8 @@
     <string name="Cancel">Cancel</string>
     <string name="google_sign_text">Sign in with Google</string>
 
+    <!--Sign Up Page -->
+    <string name="signup_term_cond"><![CDATA[I accept the Terms & Condition.]]></string>
+
 
 </resources>
