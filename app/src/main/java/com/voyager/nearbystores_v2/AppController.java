@@ -42,6 +42,7 @@ public class AppController extends Application {
 
     private static String fcmToken="";
 
+
     public static String setFcmToken(String str){
         fcmToken = str;
         return fcmToken;
