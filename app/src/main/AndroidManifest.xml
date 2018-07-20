@@ -102,7 +102,9 @@ xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://s
         android:name="com.voyager.nearbystores_v2.activities.OffersActivity"
         android:screenOrientation="portrait" />
 
-
+    <activity
+        android:name="com.voyager.nearbystores_v2.activities.login.LoginPage"
+        android:screenOrientation="portrait" />
     <activity
         android:name="com.voyager.nearbystores_v2.activities.ListUsersActivity"
         android:screenOrientation="portrait" />

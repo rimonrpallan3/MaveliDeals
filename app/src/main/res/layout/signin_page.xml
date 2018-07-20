@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="top|center"
+                android:background="@color/splash_bg"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:visibility="visible"
+                    android:id="@+id/splashImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/for_splash" />
+
+                <EditText
+                    android:id="@+id/etUserName"
+                    android:layout_marginTop="@dimen/_10"
+                    android:layout_marginRight="@dimen/_10"
+                    android:layout_marginLeft="@dimen/_10"
+                    android:paddingLeft="@dimen/_10"
+                    android:hint="UserName"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40"
+                    android:background="@drawable/edittextlayer"
+                    />
+
+                <EditText
+                    android:id="@+id/etPswd"
+                    android:layout_marginRight="@dimen/_10"
+                    android:layout_marginLeft="@dimen/_10"
+                    android:layout_marginTop="@dimen/_10"
+                    android:paddingLeft="@dimen/_10"
+                    android:hint="Password"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40"
+                    android:background="@drawable/edittextlayer"
+                    />
+
+                <Button
+                    android:layout_marginRight="@dimen/_10"
+                    android:layout_marginLeft="@dimen/_10"
+                    android:layout_marginTop="@dimen/_40"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/buttonstateslayer2_red"
+                    android:text="Login In"
+                    android:layout_height="40dp" />
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40"
+                    android:layout_marginRight="@dimen/_10"
+                    android:layout_marginLeft="@dimen/_10"
+                    android:layout_marginTop="@dimen/_10"
+                    android:background="@android:color/white">
+                    <!--Google Login layout -->
+                    <LinearLayout
+                        android:id="@+id/sign_in_button"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:background="@android:color/white"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageview_google_icon"
+                            android:layout_width="@dimen/_40"
+                            android:layout_height="@dimen/_30"
+                            android:layout_gravity="start"
+                            android:contentDescription="@string/app_name"
+                            android:background="@android:color/white"
+                            android:src="@drawable/google_icon" />
+
+                        <TextView
+                            android:id="@+id/textview_sign_in_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/_30"
+                            android:paddingRight="@dimen/_15"
+                            android:background="@android:color/white"
+                            android:textSize="@dimen/_12"
+                            android:text="@string/google_sign_text"
+                            android:textColor="@android:color/black"
+                            android:gravity="center"
+                            android:textAllCaps="false" />
+
+
+
+                    </LinearLayout>
+                </FrameLayout>
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/_10"
+                    android:layout_marginLeft="@dimen/_10"
+                    android:layout_marginTop="@dimen/_10">
+
+                    <TextView
+                        android:id="@+id/tvSignUp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textStyle="bold"
+                        android:textColor="@color/red"
+                        android:text="Sign Up"/>
+
+                    <TextView
+                        android:id="@+id/tvSkip"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textStyle="bold"
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:textColor="@color/red"
+                        android:text="Skip"/>
+
+
+
+                </FrameLayout>
+
+
+
+            </LinearLayout>
+
+
+
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -212,5 +212,11 @@
     <string name="reload">Reload</string>
     <string name="offer_up_to">Offer Will end at %s</string>
 
+    <!--Login Page-->
+    <string name="gps_network_not_enabled">Please Enable Location</string>
+    <string name="open_location_settings">Location Settings</string>
+    <string name="Cancel">Cancel</string>
+    <string name="google_sign_text">Sign in with Google</string>
+
 
 </resources>

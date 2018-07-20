@@ -313,8 +313,7 @@ public class ListOffersFragment extends android.support.v4.app.Fragment
                         if(ServiceHandler.isNetworkAvailable(getContext())) {
                             if (COUNT > adapter.getItemCount())
                                 getOffers(REQUEST_PAGE);
-                        }else
-                        {
+                        }else {
                             Toast.makeText(getContext(),"Network not available ",Toast.LENGTH_SHORT).show();
                         }
                     }

@@ -29,6 +29,7 @@ import com.android.volley.TimeoutError;
 import com.android.volley.VolleyError;
 import com.voyager.nearbystores_v2.AppController;
 import com.voyager.nearbystores_v2.R;
+import com.voyager.nearbystores_v2.activities.login.LoginPage;
 import com.voyager.nearbystores_v2.animation.Animation;
 import com.voyager.nearbystores_v2.appconfig.AppConfig;
 import com.voyager.nearbystores_v2.appconfig.AppContext;
@@ -104,10 +105,10 @@ public class SplashActivity extends AppCompatActivity implements ViewManager.Cus
         setContentView(R.layout.activity_splash);
         System.out.println(TAG+": onCreate");
 
-       if(GuestController.isStored()==false){
+       if( GuestController.isStored() == false ){
            FirebaseInstanceIDService.reloadToken();
            System.out.println(TAG+": onCreate  isStored");
-       }else {
+       } else{
             if(AppConfig.APP_DEBUG){
                 Log.e("GuestId-"+GuestController.getGuest().getId(),GuestController.getGuest().getFcmId());
                 System.out.println(TAG+": onCreate APP_DEBUG ");
@@ -306,7 +307,7 @@ public class SplashActivity extends AppCompatActivity implements ViewManager.Cus
 
     private void startMain(){
 
-        Intent intent = new Intent(SplashActivity.this,MainActivity.class);
+        Intent intent = new Intent(SplashActivity.this,LoginPage.class);
 
         try {
             intent.putExtra("chat",getIntent().getExtras().getBoolean("chat"));
@@ -469,7 +470,7 @@ public class SplashActivity extends AppCompatActivity implements ViewManager.Cus
 
                         AppController.setTokens(mac_address,device_token,token);
 
-                        startActivity(new Intent(SplashActivity.this,MainActivity.class));
+                        startActivity(new Intent(SplashActivity.this,LoginPage.class));
                         finish();
 
                         if(AppContext.DEBUG)

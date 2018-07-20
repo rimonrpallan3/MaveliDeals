@@ -386,8 +386,8 @@ public class SignupActivity extends AppCompatActivity implements View.OnClickLis
 
 
                 // send "Neighbour" as default value
-//                String Job = job.getText().toString().trim().length() >0 ? job.getText().toString() : "Neighour";
-//                params.put("job", Job);
+                // String Job = job.getText().toString().trim().length() >0 ? job.getText().toString() : "Neighour";
+                //  params.put("job", Job);
 
 
                 params.put("name", name.getText().toString().trim());
@@ -609,7 +609,7 @@ public class SignupActivity extends AppCompatActivity implements View.OnClickLis
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
 
-        if (resultCode == Activity.RESULT_OK && requestCode==GALLERY_REQUEST) {
+        if (resultCode == Activity.RESULT_OK && requestCode == GALLERY_REQUEST) {
 
             try{
 
@@ -623,7 +623,7 @@ public class SignupActivity extends AppCompatActivity implements View.OnClickLis
 
                 try {
 
-                    String  createNewFileDest= createImageFile(this);
+                    String  createNewFileDest = createImageFile(this);
 
                     new ImageUtils.PrepareImagesData(
                             this,
