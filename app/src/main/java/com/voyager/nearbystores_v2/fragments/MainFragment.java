@@ -26,6 +26,7 @@ import com.voyager.nearbystores_v2.controllers.sessions.SessionsController;
 import com.voyager.nearbystores_v2.dtmessenger.MessengerHelper;
 import com.mikepenz.actionitembadge.library.ActionItemBadge;
 import com.mikepenz.community_material_typeface_library.CommunityMaterial;
+import com.voyager.nearbystores_v2.fragments.delivery.ListDeliveryFragment;
 
 import java.util.ArrayList;
 import java.util.List;

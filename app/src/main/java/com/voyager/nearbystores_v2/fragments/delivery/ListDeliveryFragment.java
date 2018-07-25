@@ -1,4 +1,4 @@
-package com.voyager.nearbystores_v2.fragments;
+package com.voyager.nearbystores_v2.fragments.delivery;
 
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
@@ -46,7 +46,6 @@ import com.voyager.nearbystores_v2.activities.MainActivity;
 import com.voyager.nearbystores_v2.activities.OfferDetailActivity;
 import com.voyager.nearbystores_v2.adapter.OfferChildListAdapter;
 import com.voyager.nearbystores_v2.adapter.OfferFilterListAdapter;
-import com.voyager.nearbystores_v2.adapter.lists.OfferListAdapter;
 import com.voyager.nearbystores_v2.appconfig.AppConfig;
 import com.voyager.nearbystores_v2.appconfig.Constances;
 import com.voyager.nearbystores_v2.classes.Category;
@@ -56,6 +55,8 @@ import com.voyager.nearbystores_v2.controllers.ErrorsController;
 import com.voyager.nearbystores_v2.controllers.Filter.FilterController;
 import com.voyager.nearbystores_v2.controllers.stores.OffersController;
 import com.voyager.nearbystores_v2.dtmessenger.MessengerHelper;
+import com.voyager.nearbystores_v2.fragments.SearchDialog;
+import com.voyager.nearbystores_v2.fragments.delivery.adapter.DeliveryListAdapter;
 import com.voyager.nearbystores_v2.load_manager.ViewManager;
 import com.voyager.nearbystores_v2.network.ServiceHandler;
 import com.voyager.nearbystores_v2.network.VolleySingleton;
@@ -93,7 +94,7 @@ import retrofit2.Retrofit;
 import static com.voyager.nearbystores_v2.appconfig.AppConfig.APP_DEBUG;
 
 public class ListDeliveryFragment extends android.support.v4.app.Fragment
-        implements OfferListAdapter.ClickListener,
+        implements DeliveryListAdapter.ClickListener,
         IOfferFilterView,
         SwipeRefreshLayout.OnRefreshListener,
         ViewManager.CustomView {
@@ -108,7 +109,7 @@ public class ListDeliveryFragment extends android.support.v4.app.Fragment
     private RecyclerView list;
     private RecyclerView childListRecycleView;
     private RecyclerView filterListView;
-    private OfferListAdapter adapter;
+    private DeliveryListAdapter adapter;
     private OfferFilterListAdapter adapterFilter;
     private OfferChildListAdapter adapterChildFilter;
     LinearLayout filterBtnClose;
@@ -206,11 +207,10 @@ public class ListDeliveryFragment extends android.support.v4.app.Fragment
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_offers_list, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_delivery_list, container, false);
         MultiDex.install(getActivity());
         unbinder = ButterKnife.bind(this, rootView);
         iOfferFilterPresenter = new OfferFilterPresenter(this);
-        expandableListView = (ExpandableListView) rootView.findViewById(R.id.expandible_listview);
 
         TypefaceHelper.typeface(rootView);
         Realm realm = Realm.getDefaultInstance();
@@ -281,7 +281,7 @@ public class ListDeliveryFragment extends android.support.v4.app.Fragment
 
 
         try {
-            adapter = new OfferListAdapter(getActivity(), listStores);
+            adapter = new DeliveryListAdapter(getActivity(), listStores);
         } catch (ParseException e) {
             e.printStackTrace();
             System.out.println(" onCreateView error : "+e.getMessage());

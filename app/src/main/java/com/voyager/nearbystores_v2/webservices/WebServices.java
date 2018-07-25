@@ -4,6 +4,7 @@ import android.support.annotation.Nullable;
 
 
 import com.voyager.nearbystores_v2.RetorHelper.OfferList;
+import com.voyager.nearbystores_v2.classes.UserDetails;
 
 import java.util.List;
 
@@ -25,6 +26,19 @@ public interface WebServices {
 
     @GET("webservice/getOffertypes")
     Call<OfferList> doGetUserList();
+
+    @FormUrlEncoded
+    @POST("webservice/createAppUser")
+    public Call<UserDetails> registerUser(@Nullable @Field("name") String name,
+                                          @Nullable @Field("password") String password,
+                                          @Nullable @Field("mail") String email,
+                                          @Nullable @Field("phone") String phone,
+                                          @Nullable @Field("typeAuth") String typeAuth);
+
+    @FormUrlEncoded
+    @POST("webservice/signInAppUser")
+    public Call<UserDetails> loginUser(@Nullable @Field("email") String email,
+                                       @Nullable @Field("password") String passwd);
 
   /*  @FormUrlEncoded
     @POST("user/register/")

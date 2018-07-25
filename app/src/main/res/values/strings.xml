@@ -218,8 +218,17 @@
     <string name="Cancel">Cancel</string>
     <string name="google_sign_text">Sign in with Google</string>
 
+    <!--Sign In Page-->
+    <string name="snack_error_network">Please turn on your net.</string>
+    <string name="snack_error_acct">An account already exists with the same email address but different provider.</string>
+
     <!--Sign Up Page -->
     <string name="signup_term_cond"><![CDATA[I accept the Terms & Condition.]]></string>
+
+    <!--Drawer Footer Items-->
+    <string name="profile_account">My Account</string>
+    <string name="user_orders">My Order</string>
+    <string name="logout">Logout</string>
 
 
 </resources>

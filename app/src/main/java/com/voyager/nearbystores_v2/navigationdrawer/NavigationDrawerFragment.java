@@ -32,6 +32,7 @@ import com.voyager.nearbystores_v2.activities.SettingActivity;
 import com.voyager.nearbystores_v2.activities.SplashActivity;
 import com.voyager.nearbystores_v2.adapter.navigation.SimpleListAdapterNavDrawer;
 import com.voyager.nearbystores_v2.appconfig.AppConfig;
+import com.voyager.nearbystores_v2.classes.FooterItems;
 import com.voyager.nearbystores_v2.classes.HeaderItem;
 import com.voyager.nearbystores_v2.classes.Item;
 import com.voyager.nearbystores_v2.classes.User;
@@ -163,7 +164,24 @@ public class NavigationDrawerFragment extends Fragment implements SimpleListAdap
         header_item.setEmail(getResources().getString(R.string.your_email));
         header_item.setEnabled(true);
 
+        FooterItems account = new FooterItems();
+        account.setName(getResources().getString(R.string.profile_account));
+        account.setIconDraw(MaterialDrawableBuilder.IconValue.ACCOUNT);
+        account.setEnabled(true);
+        account.setID(1);
 
+        FooterItems orders = new FooterItems();
+        orders.setName(getResources().getString(R.string.user_orders));
+        orders.setIconDraw(MaterialDrawableBuilder.IconValue.WUNDERLIST);
+        orders.setEnabled(true);
+        orders.setID(2);
+
+
+        FooterItems logouts = new FooterItems();
+        logouts.setName(getResources().getString(R.string.logout));
+        logouts.setIconDraw(MaterialDrawableBuilder.IconValue.LOGOUT);
+        logouts.setEnabled(true);
+        logouts.setID(3);
 
         Item webdashboard =  new Item();
         webdashboard.setName(getResources().getString(R.string.ManageThings));
@@ -252,6 +270,7 @@ public class NavigationDrawerFragment extends Fragment implements SimpleListAdap
         if(header_item.isEnabled())
             listItems.add(header_item);
 
+
         //HOME
         if(homeItem.isEnabled())
             listItems.add(homeItem);
@@ -313,6 +332,14 @@ public class NavigationDrawerFragment extends Fragment implements SimpleListAdap
             listItems.add(settingItem);
 
 
+        if(account.isEnabled())
+            listItems.add(account);
+
+        if(orders.isEnabled())
+            listItems.add(orders);
+
+        if(logouts.isEnabled())
+            listItems.add(logouts);
 
 
 

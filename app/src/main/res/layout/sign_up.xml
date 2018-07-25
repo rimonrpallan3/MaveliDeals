@@ -48,18 +48,6 @@
 
 
     <EditText
-        android:id="@+id/etUserName"
-        android:layout_marginTop="@dimen/_10"
-        android:layout_marginRight="@dimen/_10"
-        android:layout_marginLeft="@dimen/_10"
-        android:paddingLeft="@dimen/_10"
-        android:hint="UserName"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/_40"
-        android:background="@drawable/edittextlayer"
-        />
-
-    <EditText
         android:id="@+id/etMobileNo"
         android:layout_marginTop="@dimen/_10"
         android:layout_marginRight="@dimen/_10"

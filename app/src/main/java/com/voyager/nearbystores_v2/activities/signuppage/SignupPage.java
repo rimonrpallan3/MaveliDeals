@@ -1,8 +1,10 @@
 package com.voyager.nearbystores_v2.activities.signuppage;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
@@ -13,14 +15,18 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.voyager.nearbystores_v2.R;
+import com.voyager.nearbystores_v2.activities.MainActivity;
 import com.voyager.nearbystores_v2.activities.login.view.ILoginView;
 import com.voyager.nearbystores_v2.activities.signuppage.presenter.ISignupPresenter;
 import com.voyager.nearbystores_v2.activities.signuppage.presenter.SignupPresenter;
 import com.voyager.nearbystores_v2.activities.signuppage.view.ISignupView;
+import com.voyager.nearbystores_v2.classes.UserDetails;
 import com.voyager.nearbystores_v2.common.Helper;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+
+import static com.voyager.nearbystores_v2.common.Helper.REQUEST_REGISTERED;
 
 /**
  * Created by User on 19-Jul-18.
@@ -36,8 +42,6 @@ public class SignupPage extends AppCompatActivity implements View.OnClickListene
     EditText etName;
     @BindView(R.id.etEmail)
     EditText etEmail;
-    @BindView(R.id.etUserName)
-    EditText etUserName;
     @BindView(R.id.etMobileNo)
     EditText etMobileNo;
     @BindView(R.id.etPswd)
@@ -64,7 +68,12 @@ public class SignupPage extends AppCompatActivity implements View.OnClickListene
 
         btnRegister.setOnClickListener(this);
         ibClose.setOnClickListener(this);
-        iSignupPresenter = new SignupPresenter(this,this);
+        //init
+        sharedPrefs = getSharedPreferences(Helper.UserDetails,
+                Context.MODE_PRIVATE);
+        editor = sharedPrefs.edit();
+
+        iSignupPresenter = new SignupPresenter(this,this,sharedPrefs,editor);
         iSignupPresenter.setTermCondMsg(tvTermsAndCond);
         //find view
 
@@ -78,7 +87,16 @@ public class SignupPage extends AppCompatActivity implements View.OnClickListene
         switch (v.getId()) {
             case R.id.btnRegister:
                 Toast.makeText(this, "Please wait for this feather.", Toast.LENGTH_LONG).show();
-
+                btnRegister.setEnabled(false);
+                iSignupPresenter.doRegister(etName.getText().toString(),
+                        etEmail.getText().toString(),
+                        etMobileNo.getText().toString(),
+                        etPswd.getText().toString(),
+                        etConfirmPswd.getText().toString(),
+                        checkTermsAndConductionBox.isChecked());
+                System.out.println("----------------- etName : "+etName.getText().toString()+" etEmail : "+etEmail.getText().toString()
+                +" etMobileNo : "+etMobileNo.getText().toString()+" etPswd : "+etPswd.getText().toString()+
+                        " etConfirmPswd : "+etConfirmPswd.getText().toString()+" checkTermsAndConductionBox : "+checkTermsAndConductionBox.isChecked());
                 break;
             case R.id.ibClose:
                 finish();
@@ -90,5 +108,90 @@ public class SignupPage extends AppCompatActivity implements View.OnClickListene
     @Override
     public void moveToTermsAndConductionPage() {
         Toast.makeText(this, "Document is on processing, so please continue to use our service with out any rules.", Toast.LENGTH_LONG).show();
+    }
+
+    @Override
+    public void onRegister(Boolean result, int code) {
+        etName.setEnabled(true);
+        etEmail.setEnabled(true);
+        etMobileNo.setEnabled(true);
+        etPswd.setEnabled(true);
+        etConfirmPswd.setEnabled(true);
+        //edtCPR.setEnabled(true);
+        if (result) {
+        } else {
+            btnRegister.setEnabled(true);
+            switch (code) {
+                case -1:
+                    Toast.makeText(this, "Please fill all the fields, code = " + code, Toast.LENGTH_SHORT).show();
+                    break;
+                case -2:
+                    Toast.makeText(this, "Please fill a valid Full Name, code = " + code, Toast.LENGTH_SHORT).show();
+                    break;
+                case -3:
+                    Toast.makeText(this, "Please fill a valid Password, code = " + code, Toast.LENGTH_SHORT).show();
+                    break;
+                case -4:
+                    Toast.makeText(this, "Please type the Same Password, code = " + code, Toast.LENGTH_SHORT).show();
+                    break;
+                case -5:
+                    Toast.makeText(this, "Please fill a valid email Address, code = " + code, Toast.LENGTH_SHORT).show();
+                    break;
+                case -6:
+                    Toast.makeText(this, "Please fill a valid Phone No, code = " + code, Toast.LENGTH_SHORT).show();
+                    break;
+                case -8:
+                    Toast.makeText(this, "Please Approve the terms and conduction, code = " + code, Toast.LENGTH_SHORT).show();
+                    break;
+                default:
+                    Toast.makeText(this, "Please try Again Later, code = " + code, Toast.LENGTH_SHORT).show();
+            }
+        }
+    }
+
+    @Override
+    public void onRegistered(Boolean result, int code) {
+        System.out.println("-----onRegistered second Please see, code = " + code + ", result: " + result);
+        if (result) {
+            System.out.println("------- inside onRegistered first Please see, code = " + code + ", result: " + result);
+            //Toast.makeText(this, "-----onRegistered second Please see, code = " + code + ", result: " + result, Toast.LENGTH_SHORT).show();
+            Handler handler = new Handler();
+            handler.postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    //re-enable the button
+                    btnRegister.setEnabled(true);
+                }
+            }, 4000);
+            iSignupPresenter.onRegisteredSucuess();
+        } else {
+            etName.setEnabled(true);
+            etEmail.setEnabled(true);
+            etMobileNo.setEnabled(true);
+            etPswd.setEnabled(true);
+            etConfirmPswd.setEnabled(true);
+            btnRegister.setEnabled(true);
+            switch (code) {
+                case -9:
+                    Toast.makeText(this, "Please Correct the Required fields, code = " + code, Toast.LENGTH_SHORT).show();
+                    break;
+                case -77:
+                    Toast.makeText(this, "SomeThing went Wrong on our end Please try after some time , code = " + code, Toast.LENGTH_SHORT).show();
+                    break;
+                default:
+                    Toast.makeText(this, "Please try Again Later, code = " + code, Toast.LENGTH_SHORT).show();
+            }
+        }
+    }
+
+    @Override
+    public void sendPParcelableObj(UserDetails userDetails) {
+        Intent intent = new Intent(this, MainActivity.class);
+        intent.putExtra("UserDetails", userDetails);
+        intent.putExtra("LoginDone", "done");
+        intent.addFlags(Intent.FLAG_ACTIVITY_FORWARD_RESULT);
+        startActivity(intent);
+        setResult(REQUEST_REGISTERED);
+        finish();
     }
 }

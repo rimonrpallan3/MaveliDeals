@@ -7,6 +7,7 @@ import io.realm.annotations.PrimaryKey;
 /**
  * Created by Amine on 2/12/2016.
  */
+
 public class User extends RealmObject {
 
 
@@ -273,9 +274,5 @@ public class User extends RealmObject {
     public void setPhone(String telephone) {
         this.phone = telephone;
     }
-
-
-
-
 
 }

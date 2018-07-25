@@ -1,4 +1,4 @@
-package com.voyager.nearbystores_v2.adapter.lists;
+package com.voyager.nearbystores_v2.fragments.delivery.adapter;
 
 import android.content.Context;
 import android.content.res.Configuration;
@@ -50,7 +50,7 @@ public class DeliveryListAdapter extends RecyclerView.Adapter<DeliveryListAdapte
     @Override
     public DeliveryListAdapter.mViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
 
-        View rootView = infalter.inflate(R.layout.fragment_offer_custom_item, parent, false);
+        View rootView = infalter.inflate(R.layout.fragment_delivery_custom_item, parent, false);
 
         TypefaceHelper.typeface(rootView);
 

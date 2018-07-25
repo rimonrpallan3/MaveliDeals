@@ -8,4 +8,6 @@ import android.widget.TextView;
 
 public interface ISignupPresenter {
     void setTermCondMsg(TextView v);
+    void onRegisteredSucuess();
+    void doRegister(String FullName, String email, String mobNo,String pswd, String confirmPswd, Boolean termsAndCondCheck);
 }

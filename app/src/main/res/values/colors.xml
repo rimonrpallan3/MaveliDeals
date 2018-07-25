@@ -59,6 +59,8 @@
 
     <item type="color" name="divider_dark_gray">#e4e1e1</item>
 
+    <color name="black_transparent">#70000000</color>
+
 
 
 </resources>

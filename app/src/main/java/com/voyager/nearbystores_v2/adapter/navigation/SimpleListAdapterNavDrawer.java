@@ -1,17 +1,21 @@
 package com.voyager.nearbystores_v2.adapter.navigation;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.GradientDrawable;
+import android.os.Build;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.voyager.nearbystores_v2.R;
+import com.voyager.nearbystores_v2.classes.FooterItems;
 import com.voyager.nearbystores_v2.classes.HeaderItem;
 import com.voyager.nearbystores_v2.classes.Item;
 import com.voyager.nearbystores_v2.utils.Utils;
@@ -27,6 +31,7 @@ public class SimpleListAdapterNavDrawer extends RecyclerView.Adapter<RecyclerVie
     private List<Item> data;
     private Context context;
     private ClickListener clickListener;
+    boolean setFooterboader = true;
 
     public SimpleListAdapterNavDrawer(Context context, List<Item> data){
         this.data = data;
@@ -42,7 +47,10 @@ public class SimpleListAdapterNavDrawer extends RecyclerView.Adapter<RecyclerVie
         if(viewType == 1){
             View rootView = infalter.inflate(R.layout.menu_custom_row_drawer,parent,false);
             return new mViewHolder(rootView);
-        }else{
+        }else if(viewType == 2){
+            View rootView = infalter.inflate(R.layout.menu_footer_custom_row_drawer,parent,false);
+            return new mFooterViewHolder(rootView);
+        } else{
             View rootView = infalter.inflate(R.layout.navigation_drawer_header,parent,false);
             return new mHeaderViewHolder(rootView);
         }
@@ -101,16 +109,6 @@ public class SimpleListAdapterNavDrawer extends RecyclerView.Adapter<RecyclerVie
                 }
             }
 
-            /*ViewGroup.MarginLayoutParams mlp = (ViewGroup.MarginLayoutParams) holder.flDrawerList.getLayoutParams();
-            GradientDrawable border = new GradientDrawable();
-            border.setColor(0xFFFFFFFF); //white bac                                      kground
-            border.setStroke(1, 0xFF000000); //black border with full opacity
-            if (data.size() == (position + 1)) {
-                mlp.setMargins(0, 0, 0, (int) context.getResources().getDimension(R.dimen._80));
-                holder.flDrawerList.setBackground(border);
-            } else {
-                mlp.setMargins(0, 0, 0, 0);
-            }*/
 
         }else if(holderViews instanceof mHeaderViewHolder){
 
@@ -129,7 +127,78 @@ public class SimpleListAdapterNavDrawer extends RecyclerView.Adapter<RecyclerVie
                 holder.root.setVisibility(View.GONE);
             }
 
+        }else if(holderViews instanceof mFooterViewHolder){
+
+
+            mFooterViewHolder holder = (mFooterViewHolder) holderViews;
+
+            ViewGroup.MarginLayoutParams mlp = (ViewGroup.MarginLayoutParams) holder.flFooterDrawerList.getLayoutParams();
+            GradientDrawable border = new GradientDrawable();
+            border.setColor(0xFFFFFFFF); //white bac                                      kground
+            border.setStroke(1, 0xFF000000); //black border with full opacity
+            holder.flFooterDrawerList.setBackground(border);
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
+                mlp.setMarginStart((int) context.getResources().getDimension(R.dimen._80));
+                holder.flFooterDrawerList.setBackground(border);
+            }
+
+            ImageView divider = new ImageView(context);
+            LinearLayout.LayoutParams lp =
+                    new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+            lp.setMargins(0, (int) context.getResources().getDimension(R.dimen._80), 0, 0);
+            divider.setLayoutParams(lp);
+            divider.setBackgroundColor(Color.BLACK);
+         /*   if (viewType = MY_VIEW_TYPE) {
+                outRect.set(0, 0, 0, mHeightDp);
+            } else {
+                outRect.setEmpty();
+            }*/
+
+
+            FooterItems footerItems = (FooterItems) data.get(position);
+            holder.nameItem.setText(footerItems.getName());
+            Utils.setFont(context, holder.nameItem, "SourceSansPro-Black.otf");
+
+            if(!data.get(position).isEnabled()){
+                holder.root.setVisibility(View.GONE);
+            }
+
+            /*if(data.get(position).getNotify()>0){
+                holder.notify.setVisibility(View.VISIBLE);
+                holder.notify.setText(data.get(position).getNotify());
+            }else {
+                holder.notify.setVisibility(View.GONE);
+            }
+*/
+
+            if (footerItems.getIconDraw() != null) {
+                Drawable yourDrawable = MaterialDrawableBuilder.with(context) // provide a context
+                        .setIcon(data.get(position).getIconDraw()) // provide an icon
+                        .setColor(context.getResources().getColor(R.color.gray)) // set the icon color
+                        .setSizeDp(24) // set the icon size
+                        .build();
+
+
+                holder.imageItem.setImageDrawable(yourDrawable);
+                if(!footerItems.isEnabled()){
+
+                    holder.root.setVisibility(View.GONE);
+                }
+            }
+
+
+            if (setFooterboader) {
+                //mlp.setMargins(0, 0, 0, (int) context.getResources().getDimension(R.dimen._80));
+                holder.flFooterDrawerList.setBackground(border);
+                setFooterboader = false;
+            } else {
+               // mlp.setMargins(0, 0, 0, 0);
+            }
+
+
+
         }
+
 
 
 
@@ -169,6 +238,47 @@ public class SimpleListAdapterNavDrawer extends RecyclerView.Adapter<RecyclerVie
 
         }
     }
+
+    public  class mFooterViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
+
+
+        //for item menu
+        public TextView nameItem;
+        public ImageView imageItem;
+        public TextView notify;
+        public View root;
+        public FrameLayout flFooterDrawerList;
+
+
+
+        public mFooterViewHolder(View itemView) {
+            super(itemView);
+
+            root = itemView;
+            itemView.setOnClickListener(this);
+
+            //for item menu
+            nameItem = (TextView) itemView.findViewById(R.id.itemtext);
+            imageItem = (ImageView) itemView.findViewById(R.id.itemimage);
+            notify = (TextView) itemView.findViewById(R.id.notify);
+            flFooterDrawerList = (FrameLayout) itemView.findViewById(R.id.flFooterDrawerList);
+
+        }
+
+
+        @Override
+        public void onClick(View v) {
+
+            if(clickListener!=null){
+                clickListener.itemClicked(v,getPosition());
+            }
+
+            //delete(getPosition());
+
+
+        }
+    }
+
 
 
     public  class mViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
