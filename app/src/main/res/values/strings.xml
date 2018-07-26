@@ -230,5 +230,21 @@
     <string name="user_orders">My Order</string>
     <string name="logout">Logout</string>
 
+    <!--Opt First page -->
+    <string name="otp_no">OTP Number</string>
+    <string name="otp_spinner_country">Select Country</string>
+    <string name="otp_zip_code_hint">Zip Code</string>
+    <string name="otp_mobile_no_hint">Mobile Number</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="otp_resend">Resend OTP</string>
+
+    <!-- Sign and SignUp Page-->
+    <string name="signUp_btn">Register</string>
+    <string name="signIn_btn">Sign In</string>
+    <string name="update_btn">Update</string>
+
+    <string name="permission_location_check">We need this pemission to read documents from device.</string>
+    <string name="snack_error_network">Please turn on your net.</string>
+
 
 </resources>
