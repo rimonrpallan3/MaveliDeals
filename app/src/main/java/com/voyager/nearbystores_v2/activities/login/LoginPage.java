@@ -8,14 +8,11 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.ThemedSpinnerAdapter;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.FrameLayout;
-import android.widget.LinearLayout;
-import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -29,7 +26,6 @@ import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.iid.FirebaseInstanceId;
 import com.voyager.nearbystores_v2.R;
 import com.voyager.nearbystores_v2.activities.MainActivity;
 import com.voyager.nearbystores_v2.activities.login.presenter.ILoginPresenter;
@@ -57,8 +53,8 @@ public class LoginPage extends AppCompatActivity implements ILoginView ,View.OnC
 
     @BindView(R.id.tvSkip)
     TextView tvSkip;
-    @BindView(R.id.etUserName)
-    EditText etUserName;
+    @BindView(R.id.etRegPhoneNo)
+    EditText etRegPhoneNo;
     @BindView(R.id.etPswd)
     EditText etPswd;
     @BindView(R.id.btnLogin)
@@ -134,7 +130,7 @@ public class LoginPage extends AppCompatActivity implements ILoginView ,View.OnC
                 if(NetworkDetector.haveNetworkConnection(this)){
                     //Snackbar.make(findViewById(android.R.id.content), getResources().getString(R.string.snack_error_network_available), Snackbar.LENGTH_SHORT).show();
                     btnLogin.setEnabled(false);
-                    iLoginPresenter.doLogin(etUserName.getText().toString(), etPswd.getText().toString());
+                    iLoginPresenter.doLogin(etRegPhoneNo.getText().toString(), etPswd.getText().toString());
                 }else {
                     Snackbar.make(findViewById(android.R.id.content), getResources().getString(R.string.snack_error_network), Snackbar.LENGTH_LONG).show();
                 }
@@ -205,14 +201,14 @@ public class LoginPage extends AppCompatActivity implements ILoginView ,View.OnC
 
     @Override
     public void onClearText() {
-        etUserName.setText("");
+        etRegPhoneNo.setText("");
         etPswd.setText("");
     }
 
     @Override
     public void onLoginResult(Boolean result, int code) {
 
-        etUserName.setEnabled(true);
+        etRegPhoneNo.setEnabled(true);
         etPswd.setEnabled(true);
         if (result){
         }
@@ -225,7 +221,7 @@ public class LoginPage extends AppCompatActivity implements ILoginView ,View.OnC
 
     @Override
     public void onLoginResponse(Boolean result, int code) {
-        etUserName.setEnabled(true);
+        etRegPhoneNo.setEnabled(true);
         etPswd.setEnabled(true);
         if (result){
             iLoginPresenter.onLoginSucuess();

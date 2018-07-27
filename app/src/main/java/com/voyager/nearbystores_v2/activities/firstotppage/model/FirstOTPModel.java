@@ -9,15 +9,34 @@ public class FirstOTPModel implements IFirstOTPModel {
     String contry;
     String contryCode;
     String phno;
+    int success = 0;
+    String session_id;
 
     public FirstOTPModel(){
 
     }
 
+
     public FirstOTPModel(String contry, String zipCode, String phno) {
         this.contry = contry;
         this.contryCode = zipCode;
         this.phno = phno;
+    }
+
+    public String getSession_id() {
+        return session_id;
+    }
+
+    public void setSession_id(String session_id) {
+        this.session_id = session_id;
+    }
+
+    public int getSuccess() {
+        return success;
+    }
+
+    public void setSuccess(int success) {
+        this.success = success;
     }
 
     public String getContry() {
@@ -45,6 +64,15 @@ public class FirstOTPModel implements IFirstOTPModel {
     }
 
     @Override
+    public int validateRegisterResponseError(int success) {
+        if(success!=0){
+            //if there is no error message then it means that data response is correct.
+            return -9;
+        }
+        return 0;
+    }
+
+    @Override
     public int validateFirstOTPpage(String contry, String zipCode, String phno) {
         if (contry.trim().length()==0||zipCode.trim().length()==0||phno.trim().length()==0){
             {
@@ -67,8 +95,10 @@ public class FirstOTPModel implements IFirstOTPModel {
                 char charAt2 = phno.trim().charAt(i);
                 if (!Character.isDigit(charAt2)) {
                     return -4;
-                }else if(phno.trim().length()!=8){
+                }else if(phno.trim().length()<4){
                     return -5;
+                }else if(phno.trim().length()>11){
+                    return -6;
                 }
             }
 

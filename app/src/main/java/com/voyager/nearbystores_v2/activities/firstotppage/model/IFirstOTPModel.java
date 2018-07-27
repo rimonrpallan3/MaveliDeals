@@ -6,4 +6,6 @@ package com.voyager.nearbystores_v2.activities.firstotppage.model;
 
 public interface IFirstOTPModel {
     int validateFirstOTPpage(String contry, String zipCode, String phno);
+    int validateRegisterResponseError(int success);
+
 }

@@ -30,6 +30,7 @@ import com.android.volley.VolleyError;
 import com.voyager.nearbystores_v2.AppController;
 import com.voyager.nearbystores_v2.R;
 import com.voyager.nearbystores_v2.activities.login.LoginPage;
+import com.voyager.nearbystores_v2.activities.loginsignuppage.LoginSignUpPage;
 import com.voyager.nearbystores_v2.animation.Animation;
 import com.voyager.nearbystores_v2.appconfig.AppConfig;
 import com.voyager.nearbystores_v2.appconfig.AppContext;
@@ -307,7 +308,7 @@ public class SplashActivity extends AppCompatActivity implements ViewManager.Cus
 
     private void startMain(){
 
-        Intent intent = new Intent(SplashActivity.this,LoginPage.class);
+        Intent intent = new Intent(SplashActivity.this,LoginSignUpPage.class);
 
         try {
             intent.putExtra("chat",getIntent().getExtras().getBoolean("chat"));
@@ -470,7 +471,7 @@ public class SplashActivity extends AppCompatActivity implements ViewManager.Cus
 
                         AppController.setTokens(mac_address,device_token,token);
 
-                        startActivity(new Intent(SplashActivity.this,LoginPage.class));
+                        startActivity(new Intent(SplashActivity.this,LoginSignUpPage.class));
                         finish();
 
                         if(AppContext.DEBUG)

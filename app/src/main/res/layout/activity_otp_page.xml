@@ -7,8 +7,38 @@
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_gravity="center"
         android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/_40"
+            android:textSize="@dimen/_24"
+            android:text="@string/otp_heading"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_10"
+            android:textSize="@dimen/_16"
+            android:gravity="center"
+            android:layout_marginRight="@dimen/_20"
+            android:layout_marginLeft="@dimen/_20"
+            android:text="@string/otp_subheading"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_70"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+
 
         <ImageView
             android:id="@+id/SignInPageLogo"
@@ -19,17 +49,20 @@
             android:src="@drawable/for_splash"
             android:visibility="gone" />
 
+
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="@dimen/_20"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/_40"
+            android:layout_marginLeft="@dimen/_40"
             android:orientation="vertical">
 
             <Spinner
                 android:id="@+id/spinnerSelectCountry"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/boder_black"
+                android:background="@drawable/spinnerlayer"
                 android:paddingLeft="@dimen/_10"
                 android:prompt="@string/otp_spinner_country"
                 android:spinnerMode="dropdown" />
@@ -37,17 +70,16 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="@dimen/_10"
-                android:layout_marginTop="@dimen/_15"
-                android:layout_weight="100"
+                android:layout_marginBottom="@dimen/_20"
+                android:layout_marginTop="@dimen/_20"
                 android:orientation="horizontal">
 
                 <TextView
                     android:id="@+id/edtZipCode"
-                    android:layout_width="0dp"
+                    android:layout_width="@dimen/_20"
                     android:layout_height="match_parent"
                     android:layout_weight="34"
-                    android:background="@drawable/boder_black"
+                    android:background="@drawable/edittextlayer"
                     android:clickable="false"
                     android:ellipsize="start"
                     android:gravity="center|left"
@@ -55,23 +87,23 @@
                     android:maxLines="1"
                     android:paddingLeft="@dimen/_10"
                     android:singleLine="true"
-                    android:text=""
+                    android:hint="+000"
                     android:textColorHint="@color/colorHeighLight"
                     android:textSize="@dimen/_20"
                     tools:ignore="EllipsizeMaxLines" />
 
                 <View
-                    android:layout_width="0dp"
+                    android:layout_width="3dp"
                     android:layout_height="match_parent"
                     android:layout_weight="2" />
 
 
                 <EditText
                     android:id="@+id/edtPhNo"
-                    android:layout_width="0dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="64"
-                    android:background="@drawable/boder_black"
+                    android:background="@drawable/edittextlayer"
                     android:ellipsize="end"
                     android:hint="@string/otp_mobile_no_hint"
                     android:inputType="number"
@@ -84,10 +116,11 @@
 
             <Button
                 android:id="@+id/btnGetOtp"
-                android:layout_width="wrap_content"
+                android:layout_marginTop="@dimen/_20"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:background="@drawable/boder_black"
+                android:background="@drawable/buttonstateslayer2_red"
                 android:onClick="btnGetOtp"
                 android:text="@string/get_otp"
                 android:textAllCaps="false"
@@ -105,5 +138,6 @@
             android:visibility="gone" />
 
 
+    </LinearLayout>
     </LinearLayout>
 </ScrollView>

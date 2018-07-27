@@ -237,14 +237,23 @@
     <string name="otp_mobile_no_hint">Mobile Number</string>
     <string name="get_otp">Get OTP</string>
     <string name="otp_resend">Resend OTP</string>
+    <string name="otp_heading">Verify your phone number</string>
+    <string name="otp_subheading">MaveliDeals will send an SMS message to verify phone number. Please choose your country and phone number:</string>
+
+    <!--Opt Submit page -->
+    <string name="submit_otp_heading">Verify your phone number</string>
+    <string name="submit_otp_btn">Verify Otp</string>
+    <string name="submit_otp_subheading">MaveliDeals will send an SMS message to verify phone number. Please choose your country and phone number:</string>
 
     <!-- Sign and SignUp Page-->
-    <string name="signUp_btn">Register</string>
-    <string name="signIn_btn">Sign In</string>
+    <string name="signUp_btn">Sign Up</string>
+    <string name="signIn_btn">Login</string>
     <string name="update_btn">Update</string>
 
+
+
     <string name="permission_location_check">We need this pemission to read documents from device.</string>
-    <string name="snack_error_network">Please turn on your net.</string>
+
 
 
 </resources>

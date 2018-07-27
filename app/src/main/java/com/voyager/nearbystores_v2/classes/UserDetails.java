@@ -15,7 +15,7 @@ public class UserDetails implements Parcelable,IUserDetails {
     String email;
     String auth;
     String phone;
-    int success;
+    int success = 0;
 
     public UserDetails() {
     }

@@ -4,6 +4,8 @@ import android.support.annotation.Nullable;
 
 
 import com.voyager.nearbystores_v2.RetorHelper.OfferList;
+import com.voyager.nearbystores_v2.activities.firstotppage.model.FirstOTPModel;
+import com.voyager.nearbystores_v2.activities.otppagesubmit.model.OTPModel;
 import com.voyager.nearbystores_v2.classes.UserDetails;
 
 import java.util.List;
@@ -39,6 +41,19 @@ public interface WebServices {
     @POST("webservice/signInAppUser")
     public Call<UserDetails> loginUser(@Nullable @Field("email") String email,
                                        @Nullable @Field("password") String passwd);
+
+    @FormUrlEncoded
+    @POST("webservice/verifyPhone")
+    public Call<FirstOTPModel> getOtp(@Nullable @Field("mobile") String email);
+
+    @FormUrlEncoded
+    @POST("webservice/verifyPhone")
+    public Call<OTPModel> resendOtp(@Nullable @Field("mobile") String email);
+
+    @FormUrlEncoded
+    @POST("webservice/verifyOtp")
+    public Call<OTPModel> verifyOtp(@Nullable @Field("otp") String otp,
+                                    @Nullable @Field("session_id") String session_id);
 
   /*  @FormUrlEncoded
     @POST("user/register/")

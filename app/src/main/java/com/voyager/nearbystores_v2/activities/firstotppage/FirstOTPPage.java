@@ -14,11 +14,11 @@ import android.widget.Toast;
 
 
 import com.voyager.nearbystores_v2.R;
-import com.voyager.nearbystores_v2.activities.MainActivity;
 import com.voyager.nearbystores_v2.activities.firstotppage.Adapter.SpinAdapter;
 import com.voyager.nearbystores_v2.activities.firstotppage.model.CountryDetails;
 import com.voyager.nearbystores_v2.activities.firstotppage.presenter.FirstOTPPresenter;
 import com.voyager.nearbystores_v2.activities.firstotppage.view.IFirstOTPView;
+import com.voyager.nearbystores_v2.activities.otppagesubmit.SubmitOTPPage;
 
 import java.util.List;
 
@@ -105,15 +105,16 @@ import java.util.List;
     }
 
     @Override
-    public void validatedSendData(Boolean result, int code) {
+    public void validatedSendData(Boolean result, int code,String session_id) {
         edtZipCode.setEnabled(true);
         edtPhNo.setEnabled(true);
         btnGetOtp.setEnabled(true);
         if (result) {
-            Intent intent = new Intent(FirstOTPPage.this, MainActivity.class);
+            Intent intent = new Intent(FirstOTPPage.this, SubmitOTPPage.class);
             intent.putExtra("Country",spinnerSelectContry.getSelectedItem().toString());
             intent.putExtra("ZipCode",edtZipCode.getText().toString());
             intent.putExtra("PhoneNo",edtPhNo.getText().toString());
+            intent.putExtra("session_id",session_id);
             //intent.putExtra("LoginSignUpPage", (Serializable) loginSignUpPage);
             intent.addFlags(Intent.FLAG_ACTIVITY_FORWARD_RESULT);
             setResult(Activity.RESULT_OK, intent);
@@ -135,7 +136,13 @@ import java.util.List;
                     Toast.makeText(this, "Please fill a valid Phone No, code = " + code, Toast.LENGTH_SHORT).show();
                     break;
                 case -5:
-                    Toast.makeText(this, "Phone number Should be Eight Digit, code = " + code, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "Phone number should be more that 4 digit, code = " + code, Toast.LENGTH_SHORT).show();
+                    break;
+                case -6:
+                    Toast.makeText(this, "Phone number should be less that 11 digit, code = " + code, Toast.LENGTH_SHORT).show();
+                    break;
+                case -77:
+                    Toast.makeText(this, "Something went Wrong in our Side please try again later , code = " + code, Toast.LENGTH_SHORT).show();
                     break;
 
                 default:

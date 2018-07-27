@@ -111,6 +111,19 @@ xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://s
         android:screenOrientation="portrait" />
 
     <activity
+        android:name="com.voyager.nearbystores_v2.activities.loginsignuppage.LoginSignUpPage"
+        android:screenOrientation="portrait" />
+
+
+    <activity
+        android:name="com.voyager.nearbystores_v2.activities.firstotppage.FirstOTPPage"
+        android:screenOrientation="portrait" />
+
+    <activity
+        android:name="com.voyager.nearbystores_v2.activities.otppagesubmit.SubmitOTPPage"
+        android:screenOrientation="portrait" />
+
+    <activity
         android:name="com.voyager.nearbystores_v2.activities.ListUsersActivity"
         android:screenOrientation="portrait" />
 

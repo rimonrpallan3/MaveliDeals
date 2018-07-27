@@ -127,6 +127,8 @@ dependencies {
     compile 'com.github.techery:properratingbar:0.0.5'
     // compile 'com.github.iwgang:countdownview:2.1.6'
     compile 'com.google.maps.android:android-maps-utils:0.4+'
+    implementation 'pub.devrel:easypermissions:1.1.1'
+
 
     implementation 'com.jakewharton:butterknife:8.8.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'

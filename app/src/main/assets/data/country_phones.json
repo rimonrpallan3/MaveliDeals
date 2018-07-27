@@ -1,5 +1,10 @@
 [
   {
+    "name": "Please select a country",
+    "dial_code": "+000",
+    "code": "RR"
+  },
+  {
     "name": "Afghanistan",
     "dial_code": "+93",
     "code": "AF"

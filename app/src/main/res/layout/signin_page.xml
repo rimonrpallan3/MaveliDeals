@@ -9,24 +9,25 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
-                android:gravity="top|center"
-                android:background="@color/splash_bg"
+                android:layout_marginRight="@dimen/_40"
+                android:layout_marginLeft="@dimen/_40"
+                android:gravity="center"
                 android:orientation="vertical">
 
                 <ImageView
-                    android:visibility="visible"
+                    android:visibility="gone"
                     android:id="@+id/splashImage"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:src="@drawable/for_splash" />
 
                 <EditText
-                    android:id="@+id/etUserName"
+                    android:id="@+id/etRegPhoneNo"
                     android:layout_marginTop="@dimen/_10"
                     android:layout_marginRight="@dimen/_10"
                     android:layout_marginLeft="@dimen/_10"
                     android:paddingLeft="@dimen/_10"
-                    android:hint="UserName"
+                    android:hint="Registered Phone No"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/_40"
                     android:background="@drawable/edittextlayer"
@@ -51,7 +52,7 @@
                     android:layout_marginTop="@dimen/_40"
                     android:layout_width="match_parent"
                     android:background="@drawable/buttonstateslayer2_red"
-                    android:text="Login In"
+                    android:text="Login"
                     android:layout_height="40dp" />
 
 
@@ -66,6 +67,7 @@
                     android:background="@android:color/white">
                     <!--Google Login layout -->
                     <LinearLayout
+                        android:visibility="gone"
                         android:layout_gravity="center"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -103,6 +105,7 @@
                 <FrameLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:visibility="gone"
                     android:layout_marginRight="@dimen/_10"
                     android:layout_marginLeft="@dimen/_10"
                     android:layout_marginTop="@dimen/_10">

@@ -11,6 +11,6 @@ import java.util.List;
  */
 
 public interface IFirstOTPView {
-    public void validatedSendData(Boolean result, int code);
+    public void validatedSendData(Boolean result, int code,String session_id);
     public void getCountryDetailList(List<CountryDetails> countryDetailsList);
 }
