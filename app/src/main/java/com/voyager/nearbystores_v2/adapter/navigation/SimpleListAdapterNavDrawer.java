@@ -159,6 +159,10 @@ public class SimpleListAdapterNavDrawer extends RecyclerView.Adapter<RecyclerVie
             holder.nameItem.setText(footerItems.getName());
             Utils.setFont(context, holder.nameItem, "SourceSansPro-Black.otf");
 
+            if(!footerItems.isDivider()){
+                holder.divider.setVisibility(View.GONE);
+            }
+
             if(!data.get(position).isEnabled()){
                 holder.root.setVisibility(View.GONE);
             }
@@ -248,6 +252,7 @@ public class SimpleListAdapterNavDrawer extends RecyclerView.Adapter<RecyclerVie
         public TextView notify;
         public View root;
         public FrameLayout flFooterDrawerList;
+        public View divider;
 
 
 
@@ -262,6 +267,7 @@ public class SimpleListAdapterNavDrawer extends RecyclerView.Adapter<RecyclerVie
             imageItem = (ImageView) itemView.findViewById(R.id.itemimage);
             notify = (TextView) itemView.findViewById(R.id.notify);
             flFooterDrawerList = (FrameLayout) itemView.findViewById(R.id.flFooterDrawerList);
+            divider = (View) itemView.findViewById(R.id.divider);
 
         }
 
@@ -329,6 +335,7 @@ public class SimpleListAdapterNavDrawer extends RecyclerView.Adapter<RecyclerVie
 
     public interface ClickListener{
         public void itemClicked(View view, int position);
+        public void footerItemClicked(View view, int position);
     }
 
 

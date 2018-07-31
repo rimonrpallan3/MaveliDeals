@@ -122,6 +122,9 @@ xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://s
     <activity
         android:name="com.voyager.nearbystores_v2.activities.otppagesubmit.SubmitOTPPage"
         android:screenOrientation="portrait" />
+    <activity
+        android:name="com.voyager.nearbystores_v2.activities.profile.ProfilePage"
+        android:screenOrientation="portrait" />
 
     <activity
         android:name="com.voyager.nearbystores_v2.activities.ListUsersActivity"

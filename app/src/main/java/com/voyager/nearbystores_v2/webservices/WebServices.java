@@ -34,7 +34,7 @@ public interface WebServices {
     public Call<UserDetails> registerUser(@Nullable @Field("name") String name,
                                           @Nullable @Field("password") String password,
                                           @Nullable @Field("mail") String email,
-                                          @Nullable @Field("phone") String phone,
+                                          @Nullable @Field("tel") String phone,
                                           @Nullable @Field("typeAuth") String typeAuth);
 
     @FormUrlEncoded

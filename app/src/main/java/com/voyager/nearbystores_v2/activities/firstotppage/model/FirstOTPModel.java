@@ -65,7 +65,7 @@ public class FirstOTPModel implements IFirstOTPModel {
 
     @Override
     public int validateRegisterResponseError(int success) {
-        if(success!=0){
+        if(success==1){
             //if there is no error message then it means that data response is correct.
             return -9;
         }

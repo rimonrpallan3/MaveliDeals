@@ -15,6 +15,15 @@ public class FooterItems extends Item{
     private int ImageId;
     protected String type;
     private int notify;
+    private boolean Divider = true;
+
+    public boolean isDivider() {
+        return Divider;
+    }
+
+    public void setDivider(boolean divider) {
+        Divider = divider;
+    }
 
     public boolean isEnabled() {
         return enabled;

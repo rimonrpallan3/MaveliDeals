@@ -9,10 +9,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 
+import com.google.gson.Gson;
 import com.voyager.nearbystores_v2.R;
 import com.voyager.nearbystores_v2.activities.MainActivity;
 import com.voyager.nearbystores_v2.activities.firstotppage.FirstOTPPage;
 import com.voyager.nearbystores_v2.activities.login.LoginPage;
+import com.voyager.nearbystores_v2.classes.UserDetails;
+import com.voyager.nearbystores_v2.classes.UserRow;
 import com.voyager.nearbystores_v2.common.Helper;
 
 import java.util.List;
@@ -28,6 +31,7 @@ public class LoginSignUpPage extends AppCompatActivity implements EasyPermission
 
     SharedPreferences sharedPrefs;
     SharedPreferences.Editor editor;
+    String phoneNo="";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +44,7 @@ public class LoginSignUpPage extends AppCompatActivity implements EasyPermission
         editor = sharedPrefs.edit();
         if(logout!=null){
             editor.clear();
+            editor.commit();
             System.out.println("LoginSignUpPage has ben called ");
         }
 
@@ -75,6 +80,19 @@ public class LoginSignUpPage extends AppCompatActivity implements EasyPermission
         startActivity(intent);
     }
 
+    public String getUserGsonInSharedPrefrences(){
+        String phoneNo ="";
+        Gson gson = new Gson();
+        String json = sharedPrefs.getString("UserDetails", null);
+        if(json!=null){
+            UserDetails userDetails = gson.fromJson(json, UserDetails.class);
+            UserRow userRow = userDetails.getUserRow();
+            phoneNo = userRow.getMobile();
+            System.out.println("--------- SplashPresenter getUserGsonInSharedPrefrences"+json);
+        }
+        return phoneNo;
+    }
+
 
 
     @Override
@@ -88,7 +106,12 @@ public class LoginSignUpPage extends AppCompatActivity implements EasyPermission
                         finish();
                     }
                 }else {
-                    System.out.println("LoginSignUpPage  onActivityResult null ");
+                    phoneNo = getUserGsonInSharedPrefrences();
+                    if(phoneNo!=null&&phoneNo.length()>0){
+                       finish();
+                    }else{
+                        System.out.println("LoginSignUpPage  onActivityResult null ");
+                    }
                 }
             }catch (Exception e){
                 e.printStackTrace();

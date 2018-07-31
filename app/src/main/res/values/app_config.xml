@@ -67,7 +67,7 @@
         <item>Sale</item>
         <item>Chats</item>
         <item>Stores</item>
-        <item>Shop</item>
+        <!--<item>Shop</item>-->
 
     </string-array>
 
@@ -76,7 +76,9 @@
         <item>@drawable/ic_sale_orange_18dp</item><!--Offer-->
         <item>@drawable/ic_store_mall_directory_orange_18dp</item><!--chat-->
         <item>@drawable/ic_store_mall_directory_orange_18dp</item><!--store-->
-        <item>@drawable/shop_icon</item><!--Home Delivery  -->
+<!--
+        <item>@drawable/shop_icon</item>&lt;!&ndash;Home Delivery  &ndash;&gt;
+-->
 
 
     </integer-array>
@@ -86,7 +88,7 @@
         <item>-6</item>
         <item>-5</item>
         <item>0</item>
-        <item>-4</item>
+        <!--<item>-4</item>-->
 
     </integer-array>
 

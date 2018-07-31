@@ -13,7 +13,6 @@ import android.widget.Toast;
 
 import com.google.gson.Gson;
 import com.voyager.nearbystores_v2.R;
-import com.voyager.nearbystores_v2.activities.firstotppage.model.FirstOTPModel;
 import com.voyager.nearbystores_v2.activities.otppagesubmit.model.IOTPModel;
 import com.voyager.nearbystores_v2.activities.otppagesubmit.model.OTPModel;
 import com.voyager.nearbystores_v2.activities.otppagesubmit.view.IOTPView;
@@ -90,7 +89,7 @@ public class OTPPresenter implements IOTPControler {
                 final int code =user.validateRegisterResponseError(otpModel.getSuccess());
                 System.out.println("--------- validateLoginDataBaseApi code: "+code);
                 Boolean isLoginSuccess =true;
-                if (code == 0||code == -1) {
+                if (code == 0) {
                     isLoginSuccess = false;
                     System.out.println("--------- validateLoginDataBaseApi isError: "+otpModel.getSuccess());
                     //Toast.makeText((Context) iLoginView, userDetails.getSuccess(), Toast.LENGTH_SHORT).show();
@@ -125,7 +124,7 @@ public class OTPPresenter implements IOTPControler {
         this.PhoneNo = PhoneNo;
         initUser();
         Boolean isLoginSuccess = true;
-        final int code = user.validateCheckBoxAndOtp(PhoneNo);
+        final int code = user.validatePhoneNo(PhoneNo);
         if (code!=0) isLoginSuccess = false;
         final Boolean result = isLoginSuccess;
         resendOtpPage(result, code);
@@ -134,13 +133,69 @@ public class OTPPresenter implements IOTPControler {
 
     @Override
     public void doOTPValidationAndCheck(String edtOPTNo,String session_id) {
-        this.edtOPTNo = edtOPTNo;
-        this.checkTermsAndConductionBox = checkTermsAndConductionBox;
+        this.edtOPTNo= edtOPTNo;
+        this.session_id = session_id;
         Boolean isLoginSuccess = true;
-        final int code = user.validateCheckBoxAndOtp(edtOPTNo);
-        if (code!=0) isLoginSuccess = false;
-        final Boolean result = isLoginSuccess;
-        iotpView.onSubmit(result, code);
+        final int code = user.validatesSessionKeyAndOtp(edtOPTNo,session_id);
+        if (code!=0) {
+            isLoginSuccess = false;
+            final Boolean result = isLoginSuccess;
+            iotpView.onSubmit(result, code);
+        }else {
+            final Boolean result = isLoginSuccess;
+            chkOtpWithServer(result,code);
+        }
+
+    }
+
+    public void chkOtpWithServer(final Boolean result, int code){
+        Retrofit retrofit = new ApiClient().getRetrofitClient();
+        WebServices webServices = retrofit.create(WebServices.class);
+        Call<OTPModel> call = webServices.verifyOtp(edtOPTNo,session_id);
+        call.enqueue(new Callback<OTPModel>() {
+            @Override
+            public void onResponse(Call<OTPModel> call, Response<OTPModel> response) {
+                OTPModel otpModel  = (OTPModel) response.body();
+
+                Gson gson = new Gson();
+                String jsonString = gson.toJson(otpModel);
+
+                System.out.println(" ----------- getFilters OfferListMap "+jsonString);
+                if(jsonString!=null) {
+                    System.out.println("-----------getFilters OfferList"+jsonString+" userDetails.getSuccess() : "+otpModel.getSuccess());
+                }
+
+                final int code =user.validateSessionOtpResponse(otpModel.getSuccess());
+                System.out.println("--------- validateLoginDataBaseApi code: "+code);
+                Boolean isLoginSuccess =true;
+                if (code == 0) {
+                    isLoginSuccess = false;
+                    System.out.println("--------- validateLoginDataBaseApi isError: "+otpModel.getSuccess());
+                    //Toast.makeText((Context) iLoginView, userDetails.getSuccess(), Toast.LENGTH_SHORT).show();
+                    System.out.println("-----validateLoginDataBaseApi  data unSuccess ");
+                } else {
+                    System.out.println("----- validateLoginDataBaseApi isError: "+otpModel.getSuccess());
+                    Toast.makeText((Context) iotpView, "Login Successful", Toast.LENGTH_SHORT).show();
+                    iotpView.onSubmit(result, code);
+                    System.out.println("----- validateLoginDataBaseApi data Successful ");
+                }
+                Boolean result = isLoginSuccess;
+                System.out.println("----- sendRegisteredDataAndValidateResponse second Data Please see, code = " + code + ", result: " + result);
+                //iotpView.onSubmit(result, code);
+            }
+
+            @Override
+            public void onFailure(Call<OTPModel> call, Throwable t) {
+                Boolean isLoginSuccess = false;
+                Boolean result = isLoginSuccess;
+                int code = -78;
+                iotpView.onSubmit(result, code);
+                System.out.println("----- onFailure second Data Please see, printStackTrace = "+t.getMessage());
+
+                t.printStackTrace();
+                //Toast.makeText((Context) iRegisterView, "ErrorMessage"+t.getMessage(), Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 
     private void initUser(){

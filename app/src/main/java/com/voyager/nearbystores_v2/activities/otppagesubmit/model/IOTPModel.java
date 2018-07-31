@@ -5,6 +5,8 @@ package com.voyager.nearbystores_v2.activities.otppagesubmit.model;
  */
 
 public interface IOTPModel {
-    int validateCheckBoxAndOtp(String optNumber);
+    int validatesSessionKeyAndOtp(String optNumber,String sessionKey);
+    int validatePhoneNo(String phno);
     int validateRegisterResponseError(int success);
+    int validateSessionOtpResponse(int success);
 }

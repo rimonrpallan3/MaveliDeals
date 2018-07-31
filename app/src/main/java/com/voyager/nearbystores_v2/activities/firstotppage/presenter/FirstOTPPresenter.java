@@ -97,7 +97,7 @@ public class FirstOTPPresenter implements IFirstOTPControler {
                 final int code =user.validateRegisterResponseError(firstOTPModel.getSuccess());
                 System.out.println("--------- validateLoginDataBaseApi code: "+code);
                 Boolean isLoginSuccess =true;
-                if (code == 0||code == -1) {
+                if (code == 0) {
                     isLoginSuccess = false;
                     System.out.println("--------- validateLoginDataBaseApi isError: "+firstOTPModel.getSuccess());
                     //Toast.makeText((Context) iLoginView, userDetails.getSuccess(), Toast.LENGTH_SHORT).show();
@@ -111,7 +111,7 @@ public class FirstOTPPresenter implements IFirstOTPControler {
                 }
                 Boolean result = isLoginSuccess;
                 System.out.println("----- sendRegisteredDataAndValidateResponse second Data Please see, code = " + code + ", result: " + result);
-                iotpView.validatedSendData(result, code,session_id);
+                //iotpView.validatedSendData(result, code,session_id);
             }
 
             @Override

@@ -86,6 +86,9 @@ import com.voyager.nearbystores_v2.activities.signuppage.SignupPage;
                 case -2:
                     Toast.makeText(this, "Please Agree the Terms and Conduction, code = " + code, Toast.LENGTH_SHORT).show();
                     break;
+                case -77:
+                    Toast.makeText(this, "Something went Wrong in our Side please try again later , code = " + code, Toast.LENGTH_SHORT).show();
+                    break;
                 default:
                     Toast.makeText(this, "Please try Again Later, code = " + code, Toast.LENGTH_SHORT).show();
             }
@@ -102,7 +105,7 @@ import com.voyager.nearbystores_v2.activities.signuppage.SignupPage;
             txtOTPResend.setEnabled(true);
             switch (code) {
 
-                case -77:
+                case -78:
                     Toast.makeText(this, "Something went Wrong in our Side please try again later , code = " + code, Toast.LENGTH_SHORT).show();
                     break;
                 default:

@@ -127,7 +127,7 @@ public class SignupPresenter implements ISignupPresenter{
         call.enqueue(new Callback<UserDetails>() {
             @Override
             public void onResponse(Call<UserDetails> call, Response<UserDetails> response) {
-                UserDetails userDetails  = (UserDetails) response.body();
+                userDetails  = (UserDetails) response.body();
                 System.out.println("------- sendRegisteredDataAndValidateResponse  FullName : " + FullName +
                         " Password : " + pswd +
                         " email Address : " + email +

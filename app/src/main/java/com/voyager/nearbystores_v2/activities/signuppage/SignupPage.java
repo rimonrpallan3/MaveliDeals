@@ -16,7 +16,6 @@ import android.widget.Toast;
 
 import com.voyager.nearbystores_v2.R;
 import com.voyager.nearbystores_v2.activities.MainActivity;
-import com.voyager.nearbystores_v2.activities.login.view.ILoginView;
 import com.voyager.nearbystores_v2.activities.signuppage.presenter.ISignupPresenter;
 import com.voyager.nearbystores_v2.activities.signuppage.presenter.SignupPresenter;
 import com.voyager.nearbystores_v2.activities.signuppage.view.ISignupView;
@@ -42,8 +41,8 @@ public class SignupPage extends AppCompatActivity implements View.OnClickListene
     EditText etName;
     @BindView(R.id.etEmail)
     EditText etEmail;
-    @BindView(R.id.etMobileNo)
-    EditText etMobileNo;
+    @BindView(R.id.tvMobileNo)
+    TextView tvMobileNo;
     @BindView(R.id.etPswd)
     EditText etPswd;
     @BindView(R.id.etConfirmPswd)
@@ -55,6 +54,9 @@ public class SignupPage extends AppCompatActivity implements View.OnClickListene
     @BindView(R.id.tvTermsAndCond)
     TextView tvTermsAndCond;
     ISignupPresenter iSignupPresenter;
+    String country ="";
+    String zipCode ="";
+    String PhoneNo ="";
 
 
     @Override
@@ -72,6 +74,14 @@ public class SignupPage extends AppCompatActivity implements View.OnClickListene
         sharedPrefs = getSharedPreferences(Helper.UserDetails,
                 Context.MODE_PRIVATE);
         editor = sharedPrefs.edit();
+        Bundle bundle = getIntent().getExtras();
+        if(bundle!=null) {
+            country = bundle.getString("Country");
+            zipCode = bundle.getString("ZipCode");
+            PhoneNo = bundle.getString("PhoneNo");
+            tvMobileNo.setText(zipCode + PhoneNo);
+        }
+
 
         iSignupPresenter = new SignupPresenter(this,this,sharedPrefs,editor);
         iSignupPresenter.setTermCondMsg(tvTermsAndCond);
@@ -86,16 +96,16 @@ public class SignupPage extends AppCompatActivity implements View.OnClickListene
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btnRegister:
-                Toast.makeText(this, "Please wait for this feather.", Toast.LENGTH_LONG).show();
+                //Toast.makeText(this, "Please wait for this feather.", Toast.LENGTH_LONG).show();
                 btnRegister.setEnabled(false);
                 iSignupPresenter.doRegister(etName.getText().toString(),
                         etEmail.getText().toString(),
-                        etMobileNo.getText().toString(),
+                        tvMobileNo.getText().toString(),
                         etPswd.getText().toString(),
                         etConfirmPswd.getText().toString(),
                         checkTermsAndConductionBox.isChecked());
                 System.out.println("----------------- etName : "+etName.getText().toString()+" etEmail : "+etEmail.getText().toString()
-                +" etMobileNo : "+etMobileNo.getText().toString()+" etPswd : "+etPswd.getText().toString()+
+                +" tvMobileNo : "+tvMobileNo.getText().toString()+" etPswd : "+etPswd.getText().toString()+
                         " etConfirmPswd : "+etConfirmPswd.getText().toString()+" checkTermsAndConductionBox : "+checkTermsAndConductionBox.isChecked());
                 break;
             case R.id.ibClose:
@@ -114,7 +124,7 @@ public class SignupPage extends AppCompatActivity implements View.OnClickListene
     public void onRegister(Boolean result, int code) {
         etName.setEnabled(true);
         etEmail.setEnabled(true);
-        etMobileNo.setEnabled(true);
+        tvMobileNo.setEnabled(true);
         etPswd.setEnabled(true);
         etConfirmPswd.setEnabled(true);
         //edtCPR.setEnabled(true);
@@ -167,7 +177,7 @@ public class SignupPage extends AppCompatActivity implements View.OnClickListene
         } else {
             etName.setEnabled(true);
             etEmail.setEnabled(true);
-            etMobileNo.setEnabled(true);
+            tvMobileNo.setEnabled(true);
             etPswd.setEnabled(true);
             etConfirmPswd.setEnabled(true);
             btnRegister.setEnabled(true);

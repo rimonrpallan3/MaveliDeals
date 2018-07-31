@@ -50,7 +50,7 @@ public class OTPModel implements IOTPModel {
 
     @Override
     public int validateRegisterResponseError(int success) {
-        if(success!=0){
+        if(success==1){
             //if there is no error message then it means that data response is correct.
             return -9;
         }
@@ -58,13 +58,32 @@ public class OTPModel implements IOTPModel {
     }
 
     @Override
-    public int validateCheckBoxAndOtp(String optNumber) {
+    public int validatesSessionKeyAndOtp(String optNumber,String sessionKey) {
         if (optNumber.trim().length()==0){
+            return -1;
+        }
+        if(sessionKey.trim().length()==0){
+            return -2;
+        }
+        return 0;
+    }
+    @Override
+    public int validatePhoneNo(String phno) {
+        if (phno.trim().length()==0){
             return -1;
         }
         /*if(checkTermsAndConductionBox==false){
             return -2;
         }*/
+        return 0;
+    }
+
+    @Override
+    public int validateSessionOtpResponse(int success) {
+        if(success==1){
+            //if there is no error message then it means that data response is correct.
+            return -9;
+        }
         return 0;
     }
 }

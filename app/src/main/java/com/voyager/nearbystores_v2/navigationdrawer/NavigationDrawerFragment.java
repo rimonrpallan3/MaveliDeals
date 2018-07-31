@@ -20,6 +20,7 @@ import android.widget.ExpandableListView;
 import android.widget.TextView;
 
 import com.android.volley.RequestQueue;
+import com.google.gson.Gson;
 import com.voyager.nearbystores_v2.R;
 import com.voyager.nearbystores_v2.activities.AboutActivity;
 import com.voyager.nearbystores_v2.activities.CategoriesActivity;
@@ -30,12 +31,17 @@ import com.voyager.nearbystores_v2.activities.MapStoresListActivity;
 import com.voyager.nearbystores_v2.activities.ProfileActivity;
 import com.voyager.nearbystores_v2.activities.SettingActivity;
 import com.voyager.nearbystores_v2.activities.SplashActivity;
+import com.voyager.nearbystores_v2.activities.loginsignuppage.LoginSignUpPage;
+import com.voyager.nearbystores_v2.activities.profile.ProfilePage;
 import com.voyager.nearbystores_v2.adapter.navigation.SimpleListAdapterNavDrawer;
 import com.voyager.nearbystores_v2.appconfig.AppConfig;
 import com.voyager.nearbystores_v2.classes.FooterItems;
 import com.voyager.nearbystores_v2.classes.HeaderItem;
 import com.voyager.nearbystores_v2.classes.Item;
 import com.voyager.nearbystores_v2.classes.User;
+import com.voyager.nearbystores_v2.classes.UserDetails;
+import com.voyager.nearbystores_v2.classes.UserRow;
+import com.voyager.nearbystores_v2.common.Helper;
 import com.voyager.nearbystores_v2.controllers.categories.CategoryController;
 import com.voyager.nearbystores_v2.controllers.sessions.SessionsController;
 import com.voyager.nearbystores_v2.dtmessenger.socket.SocketService;
@@ -64,10 +70,23 @@ public class NavigationDrawerFragment extends Fragment implements SimpleListAdap
         public static final int ABOUT = 8;
         public static final int CREATE_STORE = 9;
         public static final int SETTING = 10;
-        public static final int LOGOUT = 11;
-        public static final int WEB_DASHBOARD = 12;
-        public static final int MAP_STORES = 13;
+        /*public static final int MY_ACCOUNT = 11;
+        public static final int MY_ORDER = 12;
+        public static final int LOGOUTS = 13;
+
+
+        public static final int LOGOUT = 14;
+        public static final int WEB_DASHBOARD = 15;
+        public static final int MAP_STORES = 16;*/
     }
+    private static class SecondMenu{
+
+        public static final int MY_ACCOUNT = 1;
+        public static final int MY_ORDER = 2;
+        public static final int LOGOUTS = 3;
+
+    }
+
 
     private  static  final  int RESULT_SART_ACTIVITY = 1;
     public static final String PREF_FILE_NAME = "testpref";
@@ -86,6 +105,10 @@ public class NavigationDrawerFragment extends Fragment implements SimpleListAdap
     private User user;
     //init request http
     private RequestQueue queue;
+
+    SharedPreferences sharedPrefs;
+    SharedPreferences.Editor editor;
+    String phoneNo="";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -126,7 +149,9 @@ public class NavigationDrawerFragment extends Fragment implements SimpleListAdap
 
         rootView.setClickable(true);
 
-
+        sharedPrefs = getActivity().getSharedPreferences(Helper.UserDetails,
+                Context.MODE_PRIVATE);
+        editor = sharedPrefs.edit();
 
 
 
@@ -168,20 +193,23 @@ public class NavigationDrawerFragment extends Fragment implements SimpleListAdap
         account.setName(getResources().getString(R.string.profile_account));
         account.setIconDraw(MaterialDrawableBuilder.IconValue.ACCOUNT);
         account.setEnabled(true);
+        account.setDivider(true);
         account.setID(1);
 
-        FooterItems orders = new FooterItems();
+        /*FooterItems orders = new FooterItems();
         orders.setName(getResources().getString(R.string.user_orders));
         orders.setIconDraw(MaterialDrawableBuilder.IconValue.WUNDERLIST);
         orders.setEnabled(true);
-        orders.setID(2);
+        account.setDivider(false);
+        orders.setID(2);*/
 
 
-        FooterItems logouts = new FooterItems();
+        /*FooterItems logouts = new FooterItems();
         logouts.setName(getResources().getString(R.string.logout));
         logouts.setIconDraw(MaterialDrawableBuilder.IconValue.LOGOUT);
         logouts.setEnabled(true);
-        logouts.setID(3);
+        account.setDivider(false);
+        logouts.setID(3);*/
 
         Item webdashboard =  new Item();
         webdashboard.setName(getResources().getString(R.string.ManageThings));
@@ -325,21 +353,27 @@ public class NavigationDrawerFragment extends Fragment implements SimpleListAdap
         if(aboutItem.isEnabled())
             listItems.add(aboutItem);
 
+        phoneNo = getUserGsonInSharedPrefrences();
+        if(phoneNo!=null&&phoneNo.length()>0){
+            if(account.isEnabled())
+                listItems.add(account);
 
+          /*  if(orders.isEnabled())
+                listItems.add(orders);
+
+            if(logouts.isEnabled())
+                listItems.add(logouts);*/
+        }else{
+            System.out.println(" You Have Not Logged in ");
+        }
 
         //Settings
         if(settingItem.isEnabled())
             listItems.add(settingItem);
 
 
-        if(account.isEnabled())
-            listItems.add(account);
 
-        if(orders.isEnabled())
-            listItems.add(orders);
 
-        if(logouts.isEnabled())
-            listItems.add(logouts);
 
 
 
@@ -347,6 +381,20 @@ public class NavigationDrawerFragment extends Fragment implements SimpleListAdap
 
         return  listItems;
     }
+
+    public String getUserGsonInSharedPrefrences(){
+        String phoneNo ="";
+        Gson gson = new Gson();
+        String json = sharedPrefs.getString("UserDetails", null);
+        if(json!=null){
+            UserDetails userDetails = gson.fromJson(json, UserDetails.class);
+            UserRow userRow = userDetails.getUserRow();
+            phoneNo = userRow.getMobile();
+            System.out.println("--------- SplashPresenter getUserGsonInSharedPrefrences"+json);
+        }
+        return phoneNo;
+    }
+
 
 
     public static void saveToPreferences(Context context,String preferenceName,String preferenceValue){
@@ -451,8 +499,40 @@ public class NavigationDrawerFragment extends Fragment implements SimpleListAdap
 
         MainFragment mf = (MainFragment)getFragmentManager().findFragmentByTag(MainFragment.TAG);
 
-        Item item = adapter.getData().get(position);
-        if(item instanceof Item){
+        System.out.println("Get item Position outside - "+adapter.getData().get(position));
+        if(adapter.getData().get(position) instanceof FooterItems) {
+            FooterItems footerItems = (FooterItems) adapter.getData().get(position);
+            System.out.println("Get item Position footerItems - " + footerItems.getID());
+            switch (footerItems.getID()) {
+                case SecondMenu.MY_ACCOUNT:
+                    if(mDrawerLayout!=null)
+                        mDrawerLayout.closeDrawers();
+                    System.out.println(" U Have Pressed My Account");
+                    Intent intent = new Intent(getActivity(), ProfilePage.class);
+                    startActivity(intent);
+                    break;
+
+                case SecondMenu.MY_ORDER:
+                    if(mDrawerLayout!=null)
+                        mDrawerLayout.closeDrawers();
+                    System.out.println(" U Have Pressed My Order");
+
+                    break;
+
+                case SecondMenu.LOGOUTS:
+                    if(mDrawerLayout!=null)
+                        mDrawerLayout.closeDrawers();
+                    System.out.println(" U Have Pressed My Logout");
+                    intent = new Intent(getActivity(), LoginSignUpPage.class);
+                    intent.putExtra("logout","logout");
+                    startActivity(intent);
+                    getActivity().finish();
+
+                    break;
+            }
+        }else if(adapter.getData().get(position) instanceof Item){
+            Item item = adapter.getData().get(position);
+            System.out.println("Get item Position Item - "+item.getID());
             switch (item.getID()){
                 case Menu.HOME_ID:
 
@@ -528,7 +608,7 @@ public class NavigationDrawerFragment extends Fragment implements SimpleListAdap
                     getActivity().overridePendingTransition(R.anim.lefttoright_enter, R.anim.lefttoright_exit);
 
                     break;
-                case Menu.MAP_STORES:
+               /* case Menu.MAP_STORES:
 
 //                    if(mDrawerLayout!=null)
 //                        mDrawerLayout.closeDrawers();
@@ -537,6 +617,8 @@ public class NavigationDrawerFragment extends Fragment implements SimpleListAdap
                     getActivity().overridePendingTransition(R.anim.lefttoright_enter, R.anim.lefttoright_exit);
 
                     break;
+
+
                 case Menu.LOGOUT:
 
                     SessionsController.logOut();
@@ -569,7 +651,7 @@ public class NavigationDrawerFragment extends Fragment implements SimpleListAdap
                     startActivity(i);
 
                     break;
-
+*/
 
             }
         }
@@ -577,10 +659,9 @@ public class NavigationDrawerFragment extends Fragment implements SimpleListAdap
 
     }
 
+    @Override
+    public void footerItemClicked(View view, int position) {
 
-
-
-
-
+    }
 
 }

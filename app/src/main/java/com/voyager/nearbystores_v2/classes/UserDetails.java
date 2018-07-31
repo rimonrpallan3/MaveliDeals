@@ -16,6 +16,7 @@ public class UserDetails implements Parcelable,IUserDetails {
     String auth;
     String phone;
     int success = 0;
+    UserRow userRow;
 
     public UserDetails() {
     }
@@ -31,6 +32,14 @@ public class UserDetails implements Parcelable,IUserDetails {
         this.email = email;
         this.auth = auth;
         this.phone = phone;
+    }
+
+    public UserRow getUserRow() {
+        return userRow;
+    }
+
+    public void setUserRow(UserRow userRow) {
+        this.userRow = userRow;
     }
 
     public int getSuccess() {
@@ -155,6 +164,7 @@ public class UserDetails implements Parcelable,IUserDetails {
         return 0;
     }
 
+
     @Override
     public int describeContents() {
         return 0;
@@ -168,6 +178,7 @@ public class UserDetails implements Parcelable,IUserDetails {
         dest.writeString(this.auth);
         dest.writeString(this.phone);
         dest.writeInt(this.success);
+        dest.writeParcelable(this.userRow, flags);
     }
 
     protected UserDetails(Parcel in) {
@@ -177,6 +188,7 @@ public class UserDetails implements Parcelable,IUserDetails {
         this.auth = in.readString();
         this.phone = in.readString();
         this.success = in.readInt();
+        this.userRow = in.readParcelable(UserRow.class.getClassLoader());
     }
 
     public static final Creator<UserDetails> CREATOR = new Creator<UserDetails>() {

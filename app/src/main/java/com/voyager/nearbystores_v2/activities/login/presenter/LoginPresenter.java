@@ -23,6 +23,7 @@ import com.voyager.nearbystores_v2.R;
 import com.voyager.nearbystores_v2.activities.login.view.ILoginView;
 import com.voyager.nearbystores_v2.activities.signuppage.model.IUserDetails;
 import com.voyager.nearbystores_v2.classes.UserDetails;
+import com.voyager.nearbystores_v2.classes.UserRow;
 import com.voyager.nearbystores_v2.webservices.ApiClient;
 import com.voyager.nearbystores_v2.webservices.WebServices;
 
@@ -104,14 +105,14 @@ public class LoginPresenter implements ILoginPresenter{
             @Override
             public void onResponse(Call<UserDetails> call, Response<UserDetails> response) {
                 userDetails  = (UserDetails) response.body();
-
+                UserRow userRow = userDetails.getUserRow();
                 System.out.println("-------validateLoginDataBaseApi  email : " + name +
                         " Password : " + passwd +
-                        " LName : " + userDetails.getName()+
-                        " phno : " + userDetails.getPhone() +
-                        " email : " + userDetails.getEmail() +
-                        "pswd " + userDetails.getPassword()+
-                        "Auth"+ userDetails.getAuth());
+                        " LName : " + userRow.getName()+
+                        " phno : " + userRow.getMobile() +
+                        " email : " + userRow.getEmail() +
+                        "pswd " + userRow.getPassword()+
+                        "Auth"+ userRow.getTypeAuth());
                 Gson gson = new Gson();
                 String jsonString = gson.toJson(userDetails);
 

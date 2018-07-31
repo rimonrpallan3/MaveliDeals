@@ -60,6 +60,7 @@
                     android:id="@+id/flGoogleSignBtn"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/_40"
+                    android:visibility="gone"
                     android:layout_marginRight="@dimen/_10"
                     android:layout_marginLeft="@dimen/_10"
                     android:layout_marginTop="@dimen/_10"

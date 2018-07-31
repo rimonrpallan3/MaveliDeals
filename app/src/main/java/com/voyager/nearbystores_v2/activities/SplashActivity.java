@@ -3,6 +3,7 @@ package com.voyager.nearbystores_v2.activities;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.location.Address;
 import android.location.Geocoder;
 import android.os.Bundle;
@@ -38,6 +39,9 @@ import com.voyager.nearbystores_v2.appconfig.Constances;
 import com.voyager.nearbystores_v2.classes.CountriesModel;
 import com.voyager.nearbystores_v2.classes.User;
 import com.voyager.nearbystores_v2.classes.Category;
+import com.voyager.nearbystores_v2.classes.UserDetails;
+import com.voyager.nearbystores_v2.classes.UserRow;
+import com.voyager.nearbystores_v2.common.Helper;
 import com.voyager.nearbystores_v2.controllers.categories.CategoryController;
 import com.voyager.nearbystores_v2.controllers.events.EventController;
 import com.voyager.nearbystores_v2.controllers.sessions.GuestController;
@@ -88,6 +92,10 @@ public class SplashActivity extends AppCompatActivity implements ViewManager.Cus
     //init request http
     private RequestQueue queue;
     private ProgressDialog pdialog;
+    SharedPreferences sharedPrefs;
+    SharedPreferences.Editor editor;
+    String phoneNo="";
+
 
     @Override
     protected void onDestroy() {
@@ -105,6 +113,10 @@ public class SplashActivity extends AppCompatActivity implements ViewManager.Cus
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
         System.out.println(TAG+": onCreate");
+
+        sharedPrefs = getSharedPreferences(Helper.UserDetails,
+                Context.MODE_PRIVATE);
+        editor = sharedPrefs.edit();
 
        if( GuestController.isStored() == false ){
            FirebaseInstanceIDService.reloadToken();
@@ -306,20 +318,48 @@ public class SplashActivity extends AppCompatActivity implements ViewManager.Cus
 
     }
 
-    private void startMain(){
-
-        Intent intent = new Intent(SplashActivity.this,LoginSignUpPage.class);
-
-        try {
-            intent.putExtra("chat",getIntent().getExtras().getBoolean("chat"));
-        }catch (Exception e){
-
+    public String getUserGsonInSharedPrefrences(){
+        String phoneNo ="";
+        Gson gson = new Gson();
+        String json = sharedPrefs.getString("UserDetails", null);
+        if(json!=null){
+            UserDetails userDetails = gson.fromJson(json, UserDetails.class);
+            UserRow userRow = userDetails.getUserRow();
+            phoneNo = userRow.getMobile();
+            System.out.println("--------- SplashPresenter getUserGsonInSharedPrefrences"+json);
         }
+        return phoneNo;
+    }
 
-        startActivity(intent);
-        //
-        // overridePendingTransition(R.anim.lefttoright_enter, R.anim.lefttoright_exit);
-        finish();
+    private void startMain(){
+        phoneNo = getUserGsonInSharedPrefrences();
+        if(phoneNo!=null&&phoneNo.length()>0){
+            Intent intent = new Intent(SplashActivity.this,MainActivity.class);
+
+            try {
+                intent.putExtra("chat",getIntent().getExtras().getBoolean("chat"));
+            }catch (Exception e){
+
+            }
+
+            startActivity(intent);
+            //
+            // overridePendingTransition(R.anim.lefttoright_enter, R.anim.lefttoright_exit);
+            finish();
+        }else{
+            Intent intent = new Intent(SplashActivity.this,LoginSignUpPage.class);
+
+            try {
+                intent.putExtra("chat",getIntent().getExtras().getBoolean("chat"));
+            }catch (Exception e){
+
+            }
+
+            startActivity(intent);
+            //
+            // overridePendingTransition(R.anim.lefttoright_enter, R.anim.lefttoright_exit);
+            finish();
+        }
 
     }
 

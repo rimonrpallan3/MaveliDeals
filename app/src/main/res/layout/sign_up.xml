@@ -47,13 +47,15 @@
         />
 
 
-    <EditText
-        android:id="@+id/etMobileNo"
+    <TextView
+        android:id="@+id/tvMobileNo"
         android:layout_marginTop="@dimen/_10"
         android:layout_marginRight="@dimen/_10"
         android:layout_marginLeft="@dimen/_10"
+        android:gravity="left|center"
         android:paddingLeft="@dimen/_10"
         android:hint="Mobile Number"
+        android:clickable="false"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_40"
         android:background="@drawable/edittextlayer"
