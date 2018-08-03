@@ -22,6 +22,7 @@ import com.google.gson.Gson;
 import com.voyager.nearbystores_v2.R;
 import com.voyager.nearbystores_v2.activities.login.view.ILoginView;
 import com.voyager.nearbystores_v2.activities.signuppage.model.IUserDetails;
+import com.voyager.nearbystores_v2.classes.Errors;
 import com.voyager.nearbystores_v2.classes.UserDetails;
 import com.voyager.nearbystores_v2.classes.UserRow;
 import com.voyager.nearbystores_v2.webservices.ApiClient;
@@ -106,13 +107,20 @@ public class LoginPresenter implements ILoginPresenter{
             public void onResponse(Call<UserDetails> call, Response<UserDetails> response) {
                 userDetails  = (UserDetails) response.body();
                 UserRow userRow = userDetails.getUserRow();
-                System.out.println("-------validateLoginDataBaseApi  email : " + name +
+                Errors errors = userDetails.getErrors();
+                if(userRow!=null){
+                     System.out.println("-------validateLoginDataBaseApi  email : " + name +
                         " Password : " + passwd +
                         " LName : " + userRow.getName()+
                         " phno : " + userRow.getMobile() +
                         " email : " + userRow.getEmail() +
                         "pswd " + userRow.getPassword()+
                         "Auth"+ userRow.getTypeAuth());
+                }else if(errors!=null){
+                    System.out.println("-------validateLoginDataBaseApi  email : " + name +
+                            " connect : " + errors.getConnect());
+                }
+
                 Gson gson = new Gson();
                 String jsonString = gson.toJson(userDetails);
 
@@ -127,7 +135,7 @@ public class LoginPresenter implements ILoginPresenter{
                 if (code == 0) {
                     isLoginSuccess = false;
                     System.out.println("--------- validateLoginDataBaseApi isError: "+userDetails.getSuccess());
-                    //Toast.makeText((Context) iLoginView, userDetails.getSuccess(), Toast.LENGTH_SHORT).show();
+                    Toast.makeText((Context) iLoginView, errors.getConnect(), Toast.LENGTH_SHORT).show();
                     System.out.println("-----validateLoginDataBaseApi  data unSuccess ");
                 } else {
                     System.out.println("----- validateLoginDataBaseApi isError: "+userDetails.getSuccess());

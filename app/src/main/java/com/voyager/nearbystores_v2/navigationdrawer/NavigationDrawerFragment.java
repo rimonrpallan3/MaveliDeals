@@ -70,6 +70,9 @@ public class NavigationDrawerFragment extends Fragment implements SimpleListAdap
         public static final int ABOUT = 8;
         public static final int CREATE_STORE = 9;
         public static final int SETTING = 10;
+        public static final int LOGOUT = 11;
+        public static final int WEB_DASHBOARD = 12;
+        public static final int MAP_STORES = 13;
         /*public static final int MY_ACCOUNT = 11;
         public static final int MY_ORDER = 12;
         public static final int LOGOUTS = 13;
@@ -211,10 +214,10 @@ public class NavigationDrawerFragment extends Fragment implements SimpleListAdap
         account.setDivider(false);
         logouts.setID(3);*/
 
-        Item webdashboard =  new Item();
+       /* Item webdashboard =  new Item();
         webdashboard.setName(getResources().getString(R.string.ManageThings));
         webdashboard.setIconDraw(MaterialDrawableBuilder.IconValue.WEB);
-        webdashboard.setID(12);
+        webdashboard.setID(12);*/
 
 
 
@@ -343,11 +346,11 @@ public class NavigationDrawerFragment extends Fragment implements SimpleListAdap
 
         }
 
-        //Settings
+       /* //Settings
         if(AppConfig.ENABLE_WEB_DASHBOARD){
             listItems.add(webdashboard);
         }
-
+*/
 
         //About US
         if(aboutItem.isEnabled())
@@ -608,7 +611,7 @@ public class NavigationDrawerFragment extends Fragment implements SimpleListAdap
                     getActivity().overridePendingTransition(R.anim.lefttoright_enter, R.anim.lefttoright_exit);
 
                     break;
-               /* case Menu.MAP_STORES:
+                case Menu.MAP_STORES:
 
 //                    if(mDrawerLayout!=null)
 //                        mDrawerLayout.closeDrawers();
@@ -651,7 +654,6 @@ public class NavigationDrawerFragment extends Fragment implements SimpleListAdap
                     startActivity(i);
 
                     break;
-*/
 
             }
         }

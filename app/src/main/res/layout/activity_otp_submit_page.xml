@@ -100,11 +100,12 @@
                 android:id="@+id/btnSubmit"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_40"
-                android:background="@drawable/buttonstateslayer2_red"
+                android:background="@drawable/buttonstateslayer2_with_border"
                 android:layout_gravity="center"
                 android:onClick="btnSubmit"
+                android:textColor="@color/white"
                 android:text="@string/submit_otp_btn"
-                android:textAllCaps="false"/>
+                android:textAllCaps="true"/>
 
 
         </LinearLayout>

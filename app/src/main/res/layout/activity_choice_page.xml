@@ -32,7 +32,7 @@
             android:textStyle="bold"
             android:textColor="@color/white"
             android:textSize="@dimen/_14"
-            android:background="@drawable/buttonstateslayer2_red"
+            android:background="@drawable/buttonstateslayer2_with_border"
             android:layout_marginTop="@dimen/_10"
             android:onClick="btnSignIn"
             android:textAllCaps="false" />
@@ -47,7 +47,7 @@
             android:textColor="@color/white"
             android:textStyle="bold"
             android:textSize="@dimen/_14"
-            android:background="@drawable/buttonstateslayer2_red"
+            android:background="@drawable/buttonstateslayer2_with_border"
             android:layout_marginTop="@dimen/_20"
             android:onClick="btnSignUp"
             android:textAllCaps="false"/>

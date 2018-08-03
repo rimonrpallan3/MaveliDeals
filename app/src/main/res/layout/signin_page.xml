@@ -51,8 +51,9 @@
                     android:layout_marginLeft="@dimen/_10"
                     android:layout_marginTop="@dimen/_40"
                     android:layout_width="match_parent"
-                    android:background="@drawable/buttonstateslayer2_red"
+                    android:background="@drawable/buttonstateslayer2_with_border"
                     android:text="Login"
+                    android:textColor="@color/white"
                     android:layout_height="40dp" />
 
 

@@ -68,6 +68,7 @@
         android:layout_marginLeft="@dimen/_10"
         android:paddingLeft="@dimen/_10"
         android:hint="Password"
+        android:inputType="textPassword"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_40"
         android:background="@drawable/edittextlayer"
@@ -78,6 +79,7 @@
         android:layout_marginRight="@dimen/_10"
         android:layout_marginLeft="@dimen/_10"
         android:paddingLeft="@dimen/_10"
+        android:inputType="textPassword"
         android:hint="Confirm Password"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_40"
@@ -119,8 +121,9 @@
         android:layout_marginLeft="@dimen/_10"
         android:layout_marginTop="@dimen/_10"
         android:layout_width="match_parent"
-        android:background="@drawable/buttonstateslayer2_red"
+        android:background="@drawable/buttonstateslayer2_with_border"
         android:text="Register"
+        android:textColor="@color/white"
         android:layout_height="40dp" />
 
 

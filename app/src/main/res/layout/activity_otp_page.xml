@@ -120,11 +120,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:background="@drawable/buttonstateslayer2_red"
+                android:background="@drawable/buttonstateslayer2_with_border"
                 android:onClick="btnGetOtp"
                 android:text="@string/get_otp"
                 android:textAllCaps="false"
-                android:textColor="@color/black" />
+                android:textColor="@color/white" />
 
 
         </LinearLayout>
