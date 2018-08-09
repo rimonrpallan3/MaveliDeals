@@ -39,7 +39,7 @@ public interface WebServices {
 
     @FormUrlEncoded
     @POST("webservice/signInAppUser")
-    public Call<UserDetails> loginUser(@Nullable @Field("email") String email,
+    public Call<UserDetails> loginUser(@Nullable @Field("mobile") String mobileNo,
                                        @Nullable @Field("password") String passwd);
 
     @FormUrlEncoded

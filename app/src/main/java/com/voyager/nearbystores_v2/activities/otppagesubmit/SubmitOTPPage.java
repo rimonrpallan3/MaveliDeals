@@ -90,7 +90,7 @@ import com.voyager.nearbystores_v2.activities.signuppage.SignupPage;
                     Toast.makeText(this, "Something went Wrong in our Side please try again later , code = " + code, Toast.LENGTH_SHORT).show();
                     break;
                 default:
-                    Toast.makeText(this, "Please try Again Later, code = " + code, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "Please type correct OTP, code = " + code, Toast.LENGTH_SHORT).show();
             }
         }
     }

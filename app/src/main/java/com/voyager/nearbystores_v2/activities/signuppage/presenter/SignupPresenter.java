@@ -16,7 +16,9 @@ import com.google.gson.Gson;
 import com.voyager.nearbystores_v2.R;
 import com.voyager.nearbystores_v2.activities.signuppage.model.IUserDetails;
 import com.voyager.nearbystores_v2.activities.signuppage.view.ISignupView;
+import com.voyager.nearbystores_v2.classes.Errors;
 import com.voyager.nearbystores_v2.classes.UserDetails;
+import com.voyager.nearbystores_v2.classes.UserRow;
 import com.voyager.nearbystores_v2.webservices.ApiClient;
 import com.voyager.nearbystores_v2.webservices.WebServices;
 
@@ -143,7 +145,8 @@ public class SignupPresenter implements ISignupPresenter{
                 Boolean isLoginSuccess =true;
                 if (code == 0) {
                     isLoginSuccess = false;
-                    //Toast.makeText((Context) iSignupView, userDetails.getSuccess(), Toast.LENGTH_SHORT).show();
+                    Errors errors = userDetails.getErrors();
+                    Toast.makeText((Context) iSignupView, errors.getMobile(), Toast.LENGTH_SHORT).show();
                     System.out.println("-----sendRegisteredDataAndValidateResponse  data unSuccess ");
                 } else {
                     Toast.makeText((Context) iSignupView, "Register Successful", Toast.LENGTH_SHORT).show();
@@ -162,6 +165,8 @@ public class SignupPresenter implements ISignupPresenter{
                 int code = -77;
                 iSignupView.onRegistered(result, code);
                 t.printStackTrace();
+                System.out.println("----- sendRegisteredDataAndValidateResponse error = " + t.getMessage());
+
                 //Toast.makeText((Context) iRegisterView, "ErrorMessage"+t.getMessage(), Toast.LENGTH_SHORT).show();
             }
         });

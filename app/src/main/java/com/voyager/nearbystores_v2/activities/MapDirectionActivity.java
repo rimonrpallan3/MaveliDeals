@@ -162,6 +162,8 @@ public class MapDirectionActivity extends AppCompatActivity implements OnMapRead
                 try {
                     gd = new GoogleDirection(this);
                     //My Location
+                    System.out.println(" Diststance Got : "+distance);
+                    System.out.println(" traderName Got : "+traderName);
                     if (distance <= getResources().getInteger(R.integer.radius_map)) {
                         gd.setOnDirectionResponseListener(new GoogleDirection.OnDirectionResponseListener() {
 
@@ -174,7 +176,7 @@ public class MapDirectionActivity extends AppCompatActivity implements OnMapRead
                             }
                         });
                     } else {
-                        Toast.makeText(getApplicationContext(), R.string.store_to_far_map, Toast.LENGTH_SHORT).show();
+                        //Toast.makeText(getApplicationContext(), R.string.store_to_far_map, Toast.LENGTH_SHORT).show();
                     }
 
                     gd.setLogging(true);

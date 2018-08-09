@@ -51,7 +51,9 @@ public class LoginSignUpPage extends AppCompatActivity implements EasyPermission
     }
 
     public void btnSignIn(View v){
-        if (EasyPermissions.hasPermissions(this, Helper.PERMISSIONS_LOCATION_COARSE,Helper.PERMISSIONS_LOCATION_FINE)) {
+        Intent intent = new Intent(this, LoginPage.class);
+        startActivityForResult(intent, Helper.REQUEST_LOGEDIN);
+       /* if (EasyPermissions.hasPermissions(this, Helper.PERMISSIONS_LOCATION_COARSE,Helper.PERMISSIONS_LOCATION_FINE)) {
             Intent intent = new Intent(this, LoginPage.class);
             startActivityForResult(intent, Helper.REQUEST_LOGEDIN);
             System.out.println("btnSignIn has ben called ");
@@ -59,18 +61,20 @@ public class LoginSignUpPage extends AppCompatActivity implements EasyPermission
             // Ask for one permission
             EasyPermissions.requestPermissions(this, getString(R.string.permission_location_check),
                     RC_LOCATION_PERM_SIGIN, Helper.PERMISSIONS_LOCATION_COARSE,Helper.PERMISSIONS_LOCATION_FINE);
-        }
+        }*/
     }
 
     public  void btnSignUp(View v){
-        if (EasyPermissions.hasPermissions(this, Helper.PERMISSIONS_LOCATION_COARSE,Helper.PERMISSIONS_LOCATION_FINE)) {
+        /*if (EasyPermissions.hasPermissions(this, Helper.PERMISSIONS_LOCATION_COARSE,Helper.PERMISSIONS_LOCATION_FINE)) {
             Intent intent = new Intent(this, FirstOTPPage.class);
             startActivityForResult(intent,Helper.REQUEST_REGISTERED);
         } else {
             // Ask for one permission
             EasyPermissions.requestPermissions(this, getString(R.string.permission_location_check),
                     RC_LOCATION_PERM_SIGUP, Helper.PERMISSIONS_LOCATION_COARSE,Helper.PERMISSIONS_LOCATION_FINE);
-        }
+        }*/
+        Intent intent = new Intent(this, FirstOTPPage.class);
+        startActivityForResult(intent,Helper.REQUEST_REGISTERED);
 
     }
 

@@ -40,6 +40,7 @@
                 android:gravity="center"
                 android:layout_marginBottom="@dimen/_30"
                 android:layout_marginLeft="@dimen/_20"
+                android:visibility="gone"
                 android:text="@string/submit_otp_heading"
                 android:textSize="@dimen/_14" />
 
@@ -50,6 +51,8 @@
                 android:background="@drawable/edittextlayer"
                 android:layout_gravity="center"
                 android:ellipsize="end"
+                android:paddingLeft="@dimen/_08"
+                android:paddingRight="@dimen/_04"
                 android:hint="@string/otp_no"
                 android:inputType="number"
                 android:maxLines="1"

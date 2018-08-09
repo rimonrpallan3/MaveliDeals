@@ -10,9 +10,11 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.FrameLayout;
+import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -28,6 +30,8 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.voyager.nearbystores_v2.R;
 import com.voyager.nearbystores_v2.activities.MainActivity;
+import com.voyager.nearbystores_v2.activities.firstotppage.Adapter.SpinAdapter;
+import com.voyager.nearbystores_v2.activities.firstotppage.model.CountryDetails;
 import com.voyager.nearbystores_v2.activities.login.presenter.ILoginPresenter;
 import com.voyager.nearbystores_v2.activities.login.presenter.LoginPresenter;
 import com.voyager.nearbystores_v2.activities.login.view.ILoginView;
@@ -36,6 +40,8 @@ import com.voyager.nearbystores_v2.classes.UserDetails;
 import com.voyager.nearbystores_v2.common.Helper;
 import com.voyager.nearbystores_v2.common.NetworkDetector;
 
+import java.util.List;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
@@ -43,7 +49,7 @@ import butterknife.ButterKnife;
  * Created by User on 19-Jul-18.
  */
 
-public class LoginPage extends AppCompatActivity implements ILoginView ,View.OnClickListener,GoogleApiClient.OnConnectionFailedListener{
+public class LoginPage extends AppCompatActivity implements ILoginView ,View.OnClickListener,GoogleApiClient.OnConnectionFailedListener,AdapterView.OnItemSelectedListener{
 
     SharedPreferences sharedPrefs;
     SharedPreferences.Editor editor;
@@ -53,6 +59,8 @@ public class LoginPage extends AppCompatActivity implements ILoginView ,View.OnC
 
     @BindView(R.id.tvSkip)
     TextView tvSkip;
+    @BindView(R.id.edtZipCodeLogin)
+    TextView edtZipCodeLogin;
     @BindView(R.id.etRegPhoneNo)
     EditText etRegPhoneNo;
     @BindView(R.id.etPswd)
@@ -66,6 +74,11 @@ public class LoginPage extends AppCompatActivity implements ILoginView ,View.OnC
     private static final int RC_SIGN_IN = 9001;
     private static final String TAG = "LoginPage";
     private FirebaseAuth.AuthStateListener mAuthListener;
+    Spinner spinnerSelectContry;
+    //ArrayAdapter<CharSequence> adapter;
+    private SpinAdapter adapter;
+    String countryName = "";
+    Boolean intialPhase= true;
 
 
     TextView tvSignup;
@@ -80,6 +93,8 @@ public class LoginPage extends AppCompatActivity implements ILoginView ,View.OnC
                 Context.MODE_PRIVATE);
         editor = sharedPrefs.edit();
         tvSignup = (TextView) findViewById(R.id.tvSignup);
+        spinnerSelectContry = (Spinner) findViewById(R.id.spinnerSelectCountry);
+        spinnerSelectContry.setOnItemSelectedListener(this);
         tvSkip.setOnClickListener(this);
         tvSignup.setOnClickListener(this);
         btnLogin.setOnClickListener(this);
@@ -130,7 +145,7 @@ public class LoginPage extends AppCompatActivity implements ILoginView ,View.OnC
                 if(NetworkDetector.haveNetworkConnection(this)){
                     //Snackbar.make(findViewById(android.R.id.content), getResources().getString(R.string.snack_error_network_available), Snackbar.LENGTH_SHORT).show();
                     btnLogin.setEnabled(false);
-                    iLoginPresenter.doLogin(etRegPhoneNo.getText().toString(), etPswd.getText().toString());
+                    iLoginPresenter.doLogin(edtZipCodeLogin.getText().toString(),etRegPhoneNo.getText().toString(), etPswd.getText().toString());
                 }else {
                     Snackbar.make(findViewById(android.R.id.content), getResources().getString(R.string.snack_error_network), Snackbar.LENGTH_LONG).show();
                 }
@@ -246,6 +261,63 @@ public class LoginPage extends AppCompatActivity implements ILoginView ,View.OnC
 
     @Override
     public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
+
+    }
+
+    @Override
+    public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+        // On selecting a spinner item
+        String item = parent.getItemAtPosition(position).toString();
+
+        // Showing selected spinner item
+        Toast.makeText(parent.getContext(), "Selected: " + item, Toast.LENGTH_LONG).show();
+    }
+
+    @Override
+    public void onNothingSelected(AdapterView<?> parent) {
+        // TODO Auto-generated method stub
+        spinnerSelectContry.setPrompt(getString(R.string.otp_spinner_country));
+       /* arg0.setAdapter(new NothingSelectedSpinnerAdapter(
+                adapter,
+                R.layout.contact_spinner_row_nothing_selected,
+                // R.layout.contact_spinner_nothing_selected_dropdown, // Optional
+                this));*/
+    }
+
+    @Override
+    public void getCountryDetailList(List<CountryDetails> countryDetailsList) {
+        //adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        adapter =new SpinAdapter(this,android.R.layout.simple_spinner_item,countryDetailsList);
+        spinnerSelectContry.setAdapter(adapter); // Set the custom adapter to the spinner
+        spinnerSelectContry.setPrompt(getString(R.string.otp_spinner_country));
+        // You can create an anonymous listener to handle the event when is selected an spinner item
+        spinnerSelectContry.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view,
+                                       int position, long id) {
+                // Here you get the current item (a User object) that is selected by its position
+                CountryDetails countryDetails = adapter.getItem(position);
+                if(intialPhase){
+                    intialPhase = false;
+                    countryName = "Please Select a Country";
+                    edtZipCodeLogin.setText("");
+                    spinnerSelectContry.setPrompt(getString(R.string.otp_spinner_country));
+                }else {
+                    System.out.println("ID: " + countryDetails.getCode() + "\nName: " + countryDetails.getName());
+                    countryName = countryDetails.getName();
+                    edtZipCodeLogin.setText(countryDetails.getDial_code());
+                }
+                // Here you can do the action you want to...
+                //Toast.makeText(this, "ID: " + countryDetails.getCode() + "\nName: " + countryDetails.getName(), Toast.LENGTH_SHORT).show();
+            }
+            @Override
+            public void onNothingSelected(AdapterView<?> adapter) {
+                countryName = "Please Select a Country";
+                edtZipCodeLogin.setText("");
+            }
+
+        });
 
     }
 }

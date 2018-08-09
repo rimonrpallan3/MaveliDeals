@@ -283,7 +283,6 @@ public class StoreDetailActivity extends AppCompatActivity implements ViewManage
     protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(null);
         setContentView(R.layout.activity_store_detail);
-
         try {
 
             Uri uri = getIntent().getData();

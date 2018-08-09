@@ -16,6 +16,7 @@ import com.voyager.nearbystores_v2.R;
 import com.voyager.nearbystores_v2.activities.otppagesubmit.model.IOTPModel;
 import com.voyager.nearbystores_v2.activities.otppagesubmit.model.OTPModel;
 import com.voyager.nearbystores_v2.activities.otppagesubmit.view.IOTPView;
+import com.voyager.nearbystores_v2.classes.Errors;
 import com.voyager.nearbystores_v2.webservices.ApiClient;
 import com.voyager.nearbystores_v2.webservices.WebServices;
 
@@ -91,12 +92,13 @@ public class OTPPresenter implements IOTPControler {
                 Boolean isLoginSuccess =true;
                 if (code == 0) {
                     isLoginSuccess = false;
-                    System.out.println("--------- validateLoginDataBaseApi isError: "+otpModel.getSuccess());
-                    //Toast.makeText((Context) iLoginView, userDetails.getSuccess(), Toast.LENGTH_SHORT).show();
+                    Errors errors = otpModel.getErrors();
+                    System.out.println("--------- validateLoginDataBaseApi isError: "+errors.getConnect());
+                    Toast.makeText((Context) iotpView, errors.getConnect(), Toast.LENGTH_SHORT).show();
                     System.out.println("-----validateLoginDataBaseApi  data unSuccess ");
                 } else {
                     System.out.println("----- validateLoginDataBaseApi isError: "+otpModel.getSuccess());
-                    Toast.makeText((Context) iotpView, "Login Successful", Toast.LENGTH_SHORT).show();
+                    Toast.makeText((Context) iotpView, "OTP Verified", Toast.LENGTH_SHORT).show();
                     iotpView.resendOtp(result, code,session_id);
                     System.out.println("----- validateLoginDataBaseApi data Successful ");
                 }
@@ -170,18 +172,19 @@ public class OTPPresenter implements IOTPControler {
                 Boolean isLoginSuccess =true;
                 if (code == 0) {
                     isLoginSuccess = false;
-                    System.out.println("--------- validateLoginDataBaseApi isError: "+otpModel.getSuccess());
-                    //Toast.makeText((Context) iLoginView, userDetails.getSuccess(), Toast.LENGTH_SHORT).show();
+                    Errors errors = otpModel.getErrors();
+                    System.out.println("--------- validateLoginDataBaseApi isError: "+errors.getConnect());
+                    Toast.makeText((Context) iotpView, errors.getOtp(), Toast.LENGTH_SHORT).show();
                     System.out.println("-----validateLoginDataBaseApi  data unSuccess ");
                 } else {
                     System.out.println("----- validateLoginDataBaseApi isError: "+otpModel.getSuccess());
-                    Toast.makeText((Context) iotpView, "Login Successful", Toast.LENGTH_SHORT).show();
+                    Toast.makeText((Context) iotpView, "Otp Verified", Toast.LENGTH_SHORT).show();
                     iotpView.onSubmit(result, code);
                     System.out.println("----- validateLoginDataBaseApi data Successful ");
                 }
                 Boolean result = isLoginSuccess;
                 System.out.println("----- sendRegisteredDataAndValidateResponse second Data Please see, code = " + code + ", result: " + result);
-                //iotpView.onSubmit(result, code);
+                iotpView.onSubmit(result, code);
             }
 
             @Override

@@ -54,11 +54,11 @@ public class SearchDialog extends Dialog {
         Utils.setFont(context,searchBy, Constances.Fonts.BOLD);
 
         if(mOldDistance==-1){
-            int radius = PreferenceManager.getDefaultSharedPreferences(getContext()).getInt("distance_value", 100);
+            int radius = PreferenceManager.getDefaultSharedPreferences(getContext()).getInt("distance_value", 25);
             System.out.println("radius : "+radius);
             mOldDistance = radius;
         }
-        mOldDistance = 100;
+        mOldDistance = 25;
 
         val = String.valueOf(mOldDistance);
         if(mOldDistance==100){

@@ -221,6 +221,7 @@
     <!--Sign In Page-->
     <string name="snack_error_network">Please turn on your net.</string>
     <string name="snack_error_acct">An account already exists with the same email address but different provider.</string>
+    <string name="username_hit">Mobile Number</string>
 
     <!--Sign Up Page -->
     <string name="signup_term_cond"><![CDATA[I accept the Terms & Condition.]]></string>
@@ -243,12 +244,15 @@
     <!--Opt Submit page -->
     <string name="submit_otp_heading">Verify your phone number</string>
     <string name="submit_otp_btn">Verify Otp</string>
-    <string name="submit_otp_subheading">MaveliDeals will send an SMS message to verify phone number. Please choose your country and phone number:</string>
+    <string name="submit_otp_subheading">OTP is sent successfully to your primary number. Please Enter the OTP received.</string>
 
     <!-- Sign and SignUp Page-->
     <string name="signUp_btn">Sign Up</string>
     <string name="signIn_btn">Login</string>
     <string name="update_btn">Update</string>
+    <string name="signup_page_header">Create your New Account</string>
+    <string name="signin_page_header">Login</string>
+    <string name="signin_page_subHeader">Please Login with your Registered Mobile Number </string>
 
 
 

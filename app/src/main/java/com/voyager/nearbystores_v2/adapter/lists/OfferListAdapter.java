@@ -13,6 +13,8 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.squareup.picasso.Callback;
+import com.squareup.picasso.NetworkPolicy;
 import com.voyager.nearbystores_v2.R;
 import com.voyager.nearbystores_v2.activities.MainActivity;
 import com.voyager.nearbystores_v2.classes.Offer;
@@ -50,7 +52,7 @@ public class OfferListAdapter extends RecyclerView.Adapter<OfferListAdapter.mVie
     @Override
     public OfferListAdapter.mViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
 
-        View rootView = infalter.inflate(R.layout.fragment_offer_custom_item, parent, false);
+        View rootView = infalter.inflate(R.layout.fragment_offer_custom_item_v2, parent, false);
 
         TypefaceHelper.typeface(rootView);
 
@@ -62,7 +64,7 @@ public class OfferListAdapter extends RecyclerView.Adapter<OfferListAdapter.mVie
 
 
     @Override
-    public void onBindViewHolder(OfferListAdapter.mViewHolder holder, int position) {
+    public void onBindViewHolder(final OfferListAdapter.mViewHolder holder,final int position) {
 
 
             DateUtils.getDateByTimeZone(data.get(position).getDate_end(), "dd-MM-yyyy");
@@ -87,17 +89,24 @@ public class OfferListAdapter extends RecyclerView.Adapter<OfferListAdapter.mVie
                         holder.priceCutLayout.setVisibility(View.VISIBLE);
                         DecimalFormat precision = new DecimalFormat("0.00");
                         System.out.println("OfferListAdapter onBindViewHolder price : " + data.get(position).getContent().getPrice());
-                        holder.offer.setText(OfferUtils.parseCurrencyFormat(
-                                data.get(position).getContent().getPrice(),
-                                data.get(position).getContent().getCurrency()
-                        ));
+                        System.out.println("OfferListAdapter onBindViewHolder Actual : " + data.get(position).getContent().getActualPrice());
+                        holder.offer.setText(
+                                OfferUtils.parseCurrencyFormat(
+                                        data.get(position).getContent().getPrice(),
+                                        data.get(position).getContent().getCurrency()));
+                        //holder.offer.setText(String.format("%.2f", data.get(position).getContent().getPrice()));
                         Drawable priceCutImg = new IconicsDrawable(context)
                                 .icon(CommunityMaterial.Icon.cmd_close)
                                 .color(ResourcesCompat.getColor(context.getResources(), R.color.white, null))
                                 .sizeDp(1);
 
                         DecimalFormat decimalFormat = new DecimalFormat("#0");
-                        holder.offerMainPrice.setText(String.format("%.0f", data.get(position).getContent().getActualPrice()));
+                        //holder.offerMainPrice.setText(String.format("%.0f", data.get(position).getContent().getActualPrice()));
+                        holder.offerMainPrice.setText(
+                                OfferUtils.parseCurrencyFormat(
+                                        data.get(position).getContent().getActualPrice(),
+                                        data.get(position).getContent().getCurrency()
+                                ));
                         holder.offerPercentage.setText(decimalFormat.format(data.get(position).getContent().getOfferPercent()) + "%");
                         holder.offerPriceImgCut.setImageDrawable(ContextCompat.getDrawable(context, R.drawable.price_cut_draw));
                         holder.offerPriceImgCut.setScaleType(ImageView.ScaleType.FIT_XY);
@@ -135,11 +144,42 @@ public class OfferListAdapter extends RecyclerView.Adapter<OfferListAdapter.mVie
             holder.description.setCompoundDrawablePadding(14);
 
             if (data.get(position).getImages() != null) {
-                Picasso.with(context).load(data.get(position).getImages().getUrl500_500())
+                System.out.println(" Url Image");
+                /*Picasso.with(context).load(data.get(position).getImages().getUrl100_100())
                         .fit().centerCrop()
-                        .into(holder.image);
-            } else {
+                        .into(holder.image);*/
+                Picasso.with(context)
+                        .load(data.get(position).getImages().getUrl500_500())
+                        .networkPolicy(NetworkPolicy.OFFLINE)
+                        .resize(0, 200)
+                        .into(holder.image, new Callback() {
+                            @Override
+                            public void onSuccess() {
 
+                            }
+
+                            @Override
+                            public void onError() {
+                                //Try again online if cache failed
+                                Picasso.with(context)
+                                        .load(data.get(position).getImages().getUrl500_500())
+                                        .error(R.drawable.def_logo)
+                                        .resize(0, 200)
+                                        .into(holder.image, new Callback() {
+                                            @Override
+                                            public void onSuccess() {
+
+                                            }
+
+                                            @Override
+                                            public void onError() {
+                                            }
+                                        });
+                            }
+                        });
+
+            } else {
+                System.out.println(" deafult Image");
                 Picasso.with(context).load(R.drawable.def_logo)
                         .fit().centerCrop().into(holder.image);
             }

@@ -10,6 +10,16 @@ import android.os.Parcelable;
 public class Errors implements Parcelable {
 
     String connect;
+    String otp;
+    String mobile;
+
+    public String getMobile() {
+        return mobile;
+    }
+
+    public void setMobile(String mobile) {
+        this.mobile = mobile;
+    }
 
     public Errors(String connect) {
         this.connect = connect;
@@ -17,6 +27,14 @@ public class Errors implements Parcelable {
 
     public String getConnect() {
         return connect;
+    }
+
+    public String getOtp() {
+        return otp;
+    }
+
+    public void setOtp(String otp) {
+        this.otp = otp;
     }
 
     public void setConnect(String connect) {

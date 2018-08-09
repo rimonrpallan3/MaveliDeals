@@ -105,7 +105,7 @@ public class FirstOTPPresenter implements IFirstOTPControler {
                 } else {
                     session_id = firstOTPModel.getSession_id();
                     System.out.println("----- validateLoginDataBaseApi isError: "+firstOTPModel.getSuccess());
-                    Toast.makeText((Context) iotpView, "Login Successful", Toast.LENGTH_SHORT).show();
+                    //Toast.makeText((Context) iotpView, "Login Successful", Toast.LENGTH_SHORT).show();
                     iotpView.validatedSendData(result, code,session_id);
                     System.out.println("----- validateLoginDataBaseApi data Successful ");
                 }

@@ -1,6 +1,8 @@
 package com.voyager.nearbystores_v2.activities.otppagesubmit.model;
 
 
+import com.voyager.nearbystores_v2.classes.Errors;
+
 /**
  * Created by User on 15-Sep-17.
  */
@@ -10,10 +12,19 @@ public class OTPModel implements IOTPModel {
     Boolean checkTermsAndConductionBox;
     int success = 0;
     String session_id = "";
+    Errors errors;
 
     public OTPModel(String optNo, Boolean checkTermsAndConductionBox) {
         this.optNo = optNo;
         this.checkTermsAndConductionBox = checkTermsAndConductionBox;
+    }
+
+    public Errors getErrors() {
+        return errors;
+    }
+
+    public void setErrors(Errors errors) {
+        this.errors = errors;
     }
 
     public int getSuccess() {

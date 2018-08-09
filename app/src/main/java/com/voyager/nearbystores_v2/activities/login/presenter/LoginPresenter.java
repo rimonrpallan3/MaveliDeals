@@ -20,6 +20,7 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
 import com.google.gson.Gson;
 import com.voyager.nearbystores_v2.R;
+import com.voyager.nearbystores_v2.activities.firstotppage.model.CountryDetails;
 import com.voyager.nearbystores_v2.activities.login.view.ILoginView;
 import com.voyager.nearbystores_v2.activities.signuppage.model.IUserDetails;
 import com.voyager.nearbystores_v2.classes.Errors;
@@ -28,7 +29,14 @@ import com.voyager.nearbystores_v2.classes.UserRow;
 import com.voyager.nearbystores_v2.webservices.ApiClient;
 import com.voyager.nearbystores_v2.webservices.WebServices;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.List;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -59,6 +67,7 @@ public class LoginPresenter implements ILoginPresenter{
     String userImageUrl = "";
     String userMob = "";
     Activity activity;
+    List<CountryDetails> countryDetailsList;
 
 
     public LoginPresenter(Activity activity, SharedPreferences sharedPrefs,
@@ -72,6 +81,8 @@ public class LoginPresenter implements ILoginPresenter{
         this.iLoginView = iLoginView;
         this.mGoogleSignInClient = mGoogleSignInClient;
         this.mAuth = mAuth;
+        countryDetailsList = getCountryDetailsList();
+        iLoginView.getCountryDetailList(countryDetailsList);
     }
 
 
@@ -82,10 +93,10 @@ public class LoginPresenter implements ILoginPresenter{
     }
 
     @Override
-    public void doLogin(String name, String passwd) {
-        this.name = name;
+    public void doLogin(String countryCode,String name, String passwd) {
+        this.name = countryCode+name;
         this.passwd = passwd;
-        System.out.println("-------doLogin  email : " + name +
+        System.out.println("-------doLogin  email : " + countryCode+name +
                 " Password : " + passwd);
         initUser();
         Boolean isLoginSuccess = true;
@@ -234,6 +245,42 @@ public class LoginPresenter implements ILoginPresenter{
         } else {
             System.out.println("Something went wrong SignInPresenter updateUI");
         }
+    }
+
+    public String loadJSONFromAsset() {
+        String json = null;
+        try {
+            InputStream is = activity.getAssets().open("data/country_phones.json");
+            int size = is.available();
+            byte[] buffer = new byte[size];
+            is.read(buffer);
+            is.close();
+            json = new String(buffer, "UTF-8");
+            //System.out.println("-------------loadJSONFromAsset "+json);
+        } catch (IOException ex) {
+            ex.printStackTrace();
+            return null;
+        }
+        return json;
+    }
+
+    public List<CountryDetails> getCountryDetailsList(){
+        List<CountryDetails> countryDetailsList = new ArrayList<>();
+        try {
+            JSONArray m_jArry = new JSONArray(loadJSONFromAsset());
+            for (int i = 0; i < m_jArry.length(); i++) {
+                JSONObject jo_inside = m_jArry.getJSONObject(i);
+                CountryDetails countryDetails = new CountryDetails();
+                countryDetails.setName(jo_inside.getString("name"));
+                countryDetails.setDial_code(jo_inside.getString("dial_code"));
+                countryDetails.setCode(jo_inside.getString("code"));
+                countryDetailsList.add(countryDetails);
+            }
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        return countryDetailsList;
     }
 
 

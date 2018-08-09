@@ -120,12 +120,12 @@ public class UserDetails implements Parcelable,IUserDetails {
                 return -1;
             }
         }else {
-            for (int i = 0; i < FullName.trim().length(); i++) {
+            /*for (int i = 0; i < FullName.trim().length(); i++) {
                 char charAt2 = FullName.trim().charAt(i);
                 if (!Character.isLetter(charAt2)) {
                     return -2;
                 }
-            }
+            }*/
             for (int i = 0; i < password.trim().length(); i++) {
                 String charAt2 = password.trim().toString();
                 if (charAt2==null) {

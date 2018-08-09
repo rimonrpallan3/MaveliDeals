@@ -9,7 +9,7 @@ import com.google.firebase.auth.FirebaseUser;
 
 public interface ILoginPresenter {
     void clear();
-    void doLogin(String emailPhno, String passwd);
+    void doLogin(String countryCode,String emailPhno, String passwd);
     void onLoginSucuess();
     void firebaseAuthWithGoogle(GoogleSignInAccount acct);
     void updateUI(FirebaseUser user);
